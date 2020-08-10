@@ -1,6 +1,5 @@
 <template>
   <div>
-    
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
@@ -44,16 +43,7 @@
 </template>
 
 <script>
-import TopNav from "@/components/index/TopNav";
-import Nav from "@/components/index/Nav";
-import CardItems from "@/components/index/CardItems";
-export default {
-  components: {
-    TopNav,
-    Nav,
-    CardItems,
-  },
-};
+export default {};
 </script>
 
 <style>
