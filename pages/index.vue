@@ -1,5 +1,6 @@
 <template>
-<!--  <div class="container">-->
+
+  <!--  <div class="container">-->
 <!--    <div>-->
 <!--      <Logo />-->
 <!--      <h1 class="title">panchashil-fe</h1>-->
@@ -21,99 +22,88 @@
 <!--      </div>-->
 <!--    </div>-->
 <!--  </div>-->
-
-  <div class="container-fluid">
-    <div class="row d-flex justify-content-between align-items-center">
-      <div class="col-lg-3 rd-logo">
-       <a href=""><img src="https://www.jhilko.com/wp-content/themes/Jhilko/img/jhilko-logo.svg" alt="jhilko logo"  class="img-fluid lazy"></a>
-        <span class="date hide-mb">
-					<div id="time">
-						<!-- PRINTING NEPALI DATE AND TIME -->
-						<span class="time_date">बिहीबार, साउन २२, २०७७ / Thursday, August 6, 2020</span>
-					</div>
-				</span>
-        <!-- <span class="date hide-mb">15 April 2019, Saturday / १३ वैशाख २०७७, शनिबार</span> -->
-      </div>
-      <div class="col-lg-8">
-        <section class="widget"><a href="https://www.jhilko.com/epaper/"><img width="1000" height="147" src="https://www.jhilko.com/wp-content/uploads/2020/07/samayabadda.gif" class="image wp-image-3897  attachment-full size-full lazy" alt="" style="max-width: 100%; height: auto;" /></a></section>			</div>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Breaking</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-        </ul>
-        <span class="navbar-text">
-      Navbar text with an inline element
-    </span>
-      </div>
-    </nav>
-    <hr>
-
+  <div>
+  <div class="container">
     <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-3">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">कोरोना अप्डेट</h5>
-            <a href="#" class="btn btn-primary">कोभिड-१९ समाचार</a>
+<!--      //ad section-->
+        <div class="row">
+          <div class="col-12">
+            <div class="rd-ads">
+              <section class="widget"><img width="1536" height="213" src="https://www.jhilko.com/wp-content/uploads/2020/07/health-notice.jpg"  class="image wp-image-2734  attachment-full size-full lazy" alt="" style="max-width: 100%; height: auto;" data-srcset="https://www.jhilko.com/wp-content/uploads/2020/07/health-notice.jpg 1536w, https://www.jhilko.com/wp-content/uploads/2020/07/health-notice-300x42.jpg 300w, https://www.jhilko.com/wp-content/uploads/2020/07/health-notice-1024x142.jpg 1024w, https://www.jhilko.com/wp-content/uploads/2020/07/health-notice-768x107.jpg 768w" data-sizes="(max-width: 1536px) 100vw, 1536px" /></section>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-sm-3">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-3">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-3">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<!--      //end ad-->
 <hr>
+      <section class="breaking">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-12">
 
-    <div class="container">
+
+              <div class="breaking-wrap">
+
+                <h1><a href="https://www.jhilko.com/views/6176/">प्रधानमन्त्री ओली रामभक्तको अवतारमा</a></h1>
+
+
+                <a href="https://www.jhilko.com/views/6176/"><img src="https://www.jhilko.com/wp-content/uploads/2020/08/k-p-oli.jpg" alt="प्रधानमन्त्री ओली रामभक्तको अवतारमा" class="img-fluid lazy"></a>
+                <a href="https://www.jhilko.com/views/6176/"><p>काठमाडौं । १२ वर्षको वनवास र एक वर्षको अज्ञातवासको शर्त पूरा गरेपछि कौरवले पाण्डवलाई उनीहरुको राज्य फिर्ता दिनमात्र अश्वीकार गरेनन्, पाण्डवलाई केवल पाँच गाउँ दिएर ...</p></a>
+              </div>
+              <div class="breaking-wrap">
+
+                <h1><a href="https://www.jhilko.com/international/6169/">चुनाव जितेर पुटिनको सहभागीतामा जी सेभेनको सम्मेलन गर्ने ट्रम्पको योजना</a></h1>
+
+
+                <a href="https://www.jhilko.com/international/6169/"><img src="https://www.jhilko.com/wp-content/uploads/2020/08/Trump-postpones-G7-summit-until-after-US-election.jpg"  alt="चुनाव जितेर पुटिनको सहभागीतामा जी सेभेनको सम्मेलन गर्ने ट्रम्पको योजना" class="img-fluid lazy"></a>
+                <a href="https://www.jhilko.com/international/6169/"><p>काठमाडौ । अमेरिकी राष्ट्रपतिले शक्तिशाली राष्ट्रहरूको समूह जी सेभेनको शिखर सम्मेलन फेरि स्थगित गरेका छन् । उनले यो सम्मेलन अब चुनाव पछि गर्ने भएका छन ...</p></a>
+              </div>
+              <div class="breaking-wrap">
+
+                <h1><a href="https://www.jhilko.com/international/6166/">ह्वाइट हाउस बाहिर गोली चलेपछि रोकियो ट्रम्पको प्रेस सम्मेलन</a></h1>
+
+
+                <a href="https://www.jhilko.com/international/6166/"><img src="https://www.jhilko.com/wp-content/uploads/2020/08/Trump-press-conference-interrupted-after-shots-fired-outside-White-House.jpg"  alt="ह्वाइट हाउस बाहिर गोली चलेपछि रोकियो ट्रम्पको प्रेस सम्मेलन" class="img-fluid lazy"></a>
+                <a href="https://www.jhilko.com/international/6166/"><p>काठमाडौ । ह्वाइट हाउस बाहिर गोली चलेपछि अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्पको प्रेस सम्मेलन केही बेर रोकियो । गुप्तचर सेवाका अधिकारीहरूले उनलाई बाहिर गोली चलेकाले केही ...</p></a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section> <!-- /Breaking --> <!-- /Breaking -->
+<hr>
+<!--      //ad section-->
+      <div class="row">
+        <div class="col-12">
+          <div class="rd-ads">
+            <section class="widget"><img width="1536" height="213" src="https://www.jhilko.com/wp-content/uploads/2020/07/health-notice.jpg"  class="image wp-image-2734  attachment-full size-full lazy" alt="" style="max-width: 100%; height: auto;" data-srcset="https://www.jhilko.com/wp-content/uploads/2020/07/health-notice.jpg 1536w, https://www.jhilko.com/wp-content/uploads/2020/07/health-notice-300x42.jpg 300w, https://www.jhilko.com/wp-content/uploads/2020/07/health-notice-1024x142.jpg 1024w, https://www.jhilko.com/wp-content/uploads/2020/07/health-notice-768x107.jpg 768w" data-sizes="(max-width: 1536px) 100vw, 1536px" /></section>
+          </div>
+        </div>
+      </div>
+<!--      ad-->
+      <hr>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 pb-3">
+            <a href="https://www.jhilko.com/news/6155/"><img src="https://www.jhilko.com/wp-content/uploads/2020/08/Griha-mantralaya-400x225.jpg" alt="" class="img-fluid lazy"></a>
+            <h2><a href="https://www.jhilko.com/news/6155/">गृहमन्त्रालयद्वारा केही जिल्लाका प्रमुख जिल्ला अधिकारीहरुको सरुवा</a></h2>
+          </div>
+          <div class="col-md-4 pb-3">
+            <a href="https://www.jhilko.com/economy/6121/"><img src="https://www.jhilko.com/wp-content/uploads/2020/07/Nepse-7.jpg" alt="" class="img-fluid lazy"></a>
+            <h2><a href="https://www.jhilko.com/economy/6121/">शेयरबजारमा हरियाली छाउँदा नेप्से सूचक ३७.७४ अंकले बढ्यो</a></h2>
+          </div>
+          <div class="col-md-4 pb-3">
+            <a href="https://www.jhilko.com/international/6114/"><img src="https://www.jhilko.com/wp-content/uploads/2020/08/pranab-mukharjee-400x225.jpg" alt="" class="img-fluid lazy"></a>
+            <h2><a href="https://www.jhilko.com/international/6114/">भारतीय पूर्व राष्ट्रपति प्रणव मुखर्जी कोरोना संक्रमित</a></h2>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-md-12">
           <h1> प्रदेश</h1>
           <hr>
         </div>
+
         <div class="col-md-9">
           <div class="mt-3">
             <div class="row">
@@ -192,10 +182,10 @@
                   <li  class="page-item"><a href="#" class="page-link">...</a></li><li  class="page-item"><a href="https://www.jhilko.com/category/province/page/30/" class="page-link">30</a></li>
                   <li  class="page-item"><i class="page-link"><a href="https://www.jhilko.com/category/province/page/2/" >Next Page &raquo;</a></i></li>
                 </ul></div>
-              </div>
-            </div>
-          </div>
         </div>
+      </div>
+    </div>
+  </div>
 
         <div class="col-md-3">
           <div class="rd-popular p-3">
@@ -215,24 +205,42 @@
               </ul>
             </div>                </div>
         </div>
+
       </div>
+
+<!--      footer-->
+      <!-- Footer -->
+
     </div>
+  </div>
 
   </div>
 
+  <!--  <div class="row">-->
+  <!--    <div class="col-sm-4">-->
+  <!--      <img src="https://www.jhilko.com/wp-content/themes/Jhilko/img/jhilko-logo.svg" width="300px"  class="img-fluid lazy">-->
 
+  <!--    </div>-->
+  <!--    <div class="col-sm-6">-->
+  <!--      <img src="https://www.jhilko.com/wp-content/themes/Jhilko/img/jhilko-logo.svg" width="300px" height="50px" class="img-fluid lazy">-->
 
-
-
-
-
-
+  <!--    </div>-->
+  <!--  </div>-->
 
 
 </template>
 
 <script>
-export default {};
+export default {
+  head:{
+    link:[
+      {
+        rel:'stylesheet',
+        href:'https://use.fontawesome.com/releases/v5.0.6/css/all.css'
+      }
+    ]
+  }
+};
 </script>
 
 <style>

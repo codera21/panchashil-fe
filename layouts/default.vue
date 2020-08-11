@@ -1,20 +1,19 @@
 <template>
   <div>
+    <TopNav />
+    <Nav />
+    <hr />
+    <CardItems />
+    <hr />
     <Nuxt />
+    <Footer />
   </div>
 </template>
 
 <style>
 html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -60,3 +59,9 @@ html {
   background-color: #35495e;
 }
 </style>
+<script>
+  import Footer from "../components/templates/Footer";
+  export default {
+    components: {Footer}
+  }
+</script>
