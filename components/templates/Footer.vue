@@ -1,43 +1,107 @@
 <template>
-      <footer style="background-color: grey">
-        <div class="footer-top" >
-          <div class="container">
-            <div class="row">
-              <div class="col-md-4 col-lg-4 footer-about wow fadeInUp">
-                <img class="logo-footer" src="https://azmind.com/demo/bootstrap-footer/template-3/assets/img/logo.png" alt="logo-footer" data-at2x="assets/img/logo.png" style="background-color: black">
-                <p>
-                  We are a young company always looking for new and creative ideas to help you with our products in your everyday work.
-                </p>
-                <p><a href="#">Our Team</a></p>
-              </div>
-              <div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown">
-                <h3>Contact</h3>
-                <p><i class="fas fa-map-marker-alt"></i> Via Rossini 10, 10136 Turin Italy</p>
-                <p><i class="fas fa-phone"></i> Phone: (0039) 333 12 68 347</p>
-                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:hello@domain.com">hello@domain.com</a></p>
-                <p><i class="fab fa-skype"></i> Skype: you_online</p>
-              </div>
-              <div class="col-md-4 col-lg-3 footer-social wow fadeInUp">
-                <h3>Follow us</h3>
-                <p>
-                  <a href="#"><i class="fab fa-facebook"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                  <a href="#"><i class="fab fa-pinterest"></i></a>
-                </p>
-              </div>
-            </div>
+  <footer style="background-color: #7F828B">
+    <div class="container-fluid">
+      <hr>
+      <div class="row">
+        <div class="col-md-6 col-lg-2 align-self-center">
+          <h2 id="aarthiknews"><img src="https://www.jhilko.com/wp-content/themes/Jhilko/img/jhilko-logo.svg"
+                                    alt="aarthiknews.com" style="width: 180px;"></h2>
+<!--          <ul class="social pt-2">-->
+<!--            <li class="facebook">-->
+<!--              <a title="Like us in Facebook" href="https://www.facebook.com/aarthiknews/" target="_blank">-->
+<!--                <i class="fa fa-facebook"></i>-->
+<!--              </a>-->
+<!--            </li>-->
+<!--            <li class="twitter">-->
+<!--              <a title="Follow us in Twitter" href="https://twitter.com/arthiknews" target="_blank">-->
+<!--                <i class="fa fa-twitter"></i>-->
+<!--              </a>-->
+<!--            </li>-->
+<!--            <li class="youtube">-->
+<!--              <a title="Subscribe us in Youtube" href="https://www.youtube.com/c/AarthikNewsVideo"-->
+<!--                 target="_blank">-->
+<!--                <i class="fa fa-youtube-play"></i>-->
+<!--              </a>-->
+<!--            </li>-->
+<!--          </ul>-->
+        </div>
+        <div class="col-md-6 col-lg-2">
+          <h4>सम्पर्क ठेगाना</h4>
+          <ul class="list-unstyled">
+            <li><i class="fa fa-map-marker"></i> &nbsp; मध्य बानेश्वर, काठमाडौं</li>
+            <li><i class="fa fa-phone"></i> &nbsp; +९७७–१–४४७९८०४, ८०५</li>
+            <li>
+              <a href="mailto:aarthiknews@gmail.com"><i class="fa fa-envelope"></i> &nbsp;
+                aarthiknews@gmail.com</a>
+
+              <a style="font-size: 12px;" href="mailto:nepalmediaeye@gmail.com"><i
+                class="fa fa-envelope"></i> &nbsp; nepalmediaeye@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-2">
+          <div class="member">
+            <div>अध्यक्ष</div>
+            <div>निरज्वल बस्नेत</div>
+            <div>प्रधान सम्पादक</div>
+            <div>सिताराम भट्टराई</div>
+            <div>सम्पादक</div>
+            <div>मेनुका कार्की</div>
           </div>
         </div>
-      </footer>
+        <div class="col-md-6 col-lg-3 management-team">
+          <div class="member">
+            <div>प्रमुख कार्यकारी अधिकृत</div>
+            <div>ईन्द्र बानिया <a href="tel:+9779851056763">&nbsp;<i class="fa fa-mobile"></i>
+              ९८५१०५६७६३</a>
+            </div>
+          </div>
+          <div class="member">
+            <div>व्यापार प्रवद्र्धन प्रमुख</div>
+            <div>बिजय फुयाँल <a href="tel:+9779851259881">&nbsp;<i class="fa fa-mobile"></i>
+              ९८५१२५९८८१</a>
+            </div>
+          </div>
+          सूचना विभाग दर्ता नं.: १५३/२०७३/०७४
+        </div>
+        <div class="col-md-6 col-lg-3 align-self-center mb-2 facebook-like">
+          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Faarthiknews%2F&tabs&width=307&height=107&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=383880808794197"
+                  width="307" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                  allowTransparency="true" allow="encrypted-media"></iframe>
+        </div>
+      </div>
 
+    </div>
+  </footer>
 </template>
-
+<!--<div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown">-->
+<!--  <h3>Contact</h3>-->
+<!--  <p><i class="fas fa-map-marker-alt"></i> Via Rossini 10, 10136 Turin Italy</p>-->
+<!--  <p><i class="fas fa-phone"></i> Phone: (0039) 333 12 68 347</p>-->
+<!--  <p><i class="fas fa-envelope"></i> Email: <a href="mailto:hello@domain.com">hello@domain.com</a></p>-->
+<!--  <p><i class="fab fa-skype"></i> Skype: you_online</p>-->
+<!--</div>-->
+<!--<div class="col-md-4 col-lg-3 footer-social wow fadeInUp">-->
+<!--  <h3>Follow us</h3>-->
+<!--  <p>-->
+<!--    <a href="#"><i class="fab fa-facebook"></i></a>-->
+<!--    <a href="#"><i class="fab fa-twitter"></i></a>-->
+<!--    <a href="#"><i class="fab fa-google-plus-g"></i></a>-->
+<!--    <a href="#"><i class="fab fa-instagram"></i></a>-->
+<!--    <a href="#"><i class="fab fa-pinterest"></i></a>-->
+<!--  </p>-->
+<!--</div>-->
 <script>
-    export default {
-        name: "Footer"
+  export default {
+    head:{
+      link:[
+        {
+          rel:'stylesheet',
+          href:'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'
+        }
+      ]
     }
+  };
 </script>
 
 <style scoped>
