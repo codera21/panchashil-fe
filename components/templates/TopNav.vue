@@ -4,7 +4,7 @@
     <div class="col-lg-3 rd-logo">
       <a href>
         <img
-          src="https://www.jhilko.com/wp-content/themes/Jhilko/img/jhilko-logo.svg"
+          src="~/assets/img/logo1.jpg"
           alt="jhilko logo"
           class="img-fluid lazy"
         />

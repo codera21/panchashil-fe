@@ -4,7 +4,7 @@
       <hr>
       <div class="row">
         <div class="col-md-6 col-lg-2 align-self-center">
-          <h2 id="aarthiknews"><img src="https://www.jhilko.com/wp-content/themes/Jhilko/img/jhilko-logo.svg"
+          <h2 id="aarthiknews"><img src="~/assets/img/logo1.jpg"
                                     alt="aarthiknews.com" style="width: 180px;"></h2>
 <!--          <ul class="social pt-2">-->
 <!--            <li class="facebook">-->
