@@ -21,7 +21,7 @@
           <img
             width="1000"
             height="147"
-            src="https://www.jhilko.com/wp-content/uploads/2020/07/samayabadda.gif"
+            src="https://via.placeholder.com/1000X147.png?text=Your Ads here"
             class="image wp-image-3897 attachment-full size-full lazy"
             alt
             style="max-width: 100%; height: auto;"
