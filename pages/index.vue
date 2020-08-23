@@ -29,7 +29,13 @@
         <div class="row">
           <div class="col-12">
             <div class="rd-ads">
-              <section class="widget"><img width="1536" height="213" src="https://www.jhilko.com/wp-content/uploads/2020/07/health-notice.jpg"  class="image wp-image-2734  attachment-full size-full lazy" alt="" style="max-width: 100%; height: auto;" data-srcset="https://www.jhilko.com/wp-content/uploads/2020/07/health-notice.jpg 1536w, https://www.jhilko.com/wp-content/uploads/2020/07/health-notice-300x42.jpg 300w, https://www.jhilko.com/wp-content/uploads/2020/07/health-notice-1024x142.jpg 1024w, https://www.jhilko.com/wp-content/uploads/2020/07/health-notice-768x107.jpg 768w" data-sizes="(max-width: 1536px) 100vw, 1536px" /></section>
+              <section class="widget"><img width="1536"
+                                           height="213"
+                                           src="https://via.placeholder.com/728x90?text=728x90+Leaderboard%20C/O%20https://placeholder.com/banner-ads/#46821560_Full_Banner"
+                                           class="image wp-image-2734  attachment-full size-full lazy" alt=""
+                                           style="max-width: 100%; height: auto;"
+                                          />
+              </section>
             </div>
           </div>
         </div>
