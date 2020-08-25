@@ -1,21 +1,25 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid" style="background-color: #7F828B">
   <div class="row d-flex justify-content-between align-items-center">
     <div class="col-lg-3 rd-logo">
       <a href>
         <img
-          src="~/assets/img/logo1.jpg"
+          src="~/assets/img/logoo.png"
           alt="jhilko logo"
-          class="img-fluid lazy"
+          height="190px"
+
+          class="img-responsive"
+          style="background-color: white"
         />
       </a>
+      <hr>
       <span class="date hide-mb">
         <div id="time">
           <span class="time_date">बिहीबार, साउन २२, २०७७ / Thursday, August 6, 2020</span>
         </div>
       </span>
     </div>
-    <div class="col-lg-8">
+    <div class="col-lg-8" >
       <section class="widget">
         <a href="https://www.jhilko.com/epaper/">
           <img
@@ -30,7 +34,9 @@
       </section>
     </div>
   </div>
+
 </div>
+
 </template>
 
 <script>

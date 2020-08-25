@@ -61,7 +61,19 @@ html {
 </style>
 <script>
   import Footer from "../components/templates/Footer";
+  import TopNav from "../components/templates/TopNav";
+  import Nav from "../components/templates/Nav";
+  import CardItems from "../components/templates/CardItems";
+  import Content from "../components/templates/Description";
   export default {
-    components: {Footer}
+    components: {Content, Footer,TopNav,Nav,CardItems},
+    head: {
+      link: [
+        {
+          rel: "stylesheet",
+          href: "https://use.fontawesome.com/releases/v5.0.6/css/all.css",
+        },
+      ],
+    },
   }
 </script>

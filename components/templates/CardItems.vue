@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid" style="background-color: gray;">
   <div class="row">
     <div v-for="item in items" :key="item.id" class="col-sm-3">
       <div class="card">
@@ -26,18 +26,18 @@ export default {
         },
         {
           id: 1,
-          title: "Title 2",
-          btnTxt: "Action 2",
+          title: "जम्मा संक्रमित (नेपाल)",
+          btnTxt: "कोभिड-१९ समाचार",
         },
         {
           id: 2,
-          title: "Title 3",
-          btnTxt: "Action 3",
+          title: "निको भएको",
+          btnTxt: "कोभिड-१९ समाचार",
         },
         {
           id: 3,
-          title: "Title 4",
-          btnTxt: "Action 4",
+          title: " मृत्यु",
+          btnTxt: "कोभिड-१९ समाचार",
         },
       ],
     };

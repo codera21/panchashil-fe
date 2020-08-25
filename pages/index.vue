@@ -349,34 +349,16 @@
           </div>
         </div>
 
-        <!--      footer-->
-        <!-- Footer -->
+
       </div>
     </div>
   </div>
 
-  <!--  <div class="row">-->
-  <!--    <div class="col-sm-4">-->
-  <!--      <img src="https://www.jhilko.com/wp-content/themes/Jhilko/img/jhilko-logo.svg" width="300px"  class="img-fluid lazy">-->
-
-  <!--    </div>-->
-  <!--    <div class="col-sm-6">-->
-  <!--      <img src="https://www.jhilko.com/wp-content/themes/Jhilko/img/jhilko-logo.svg" width="300px" height="50px" class="img-fluid lazy">-->
-
-  <!--    </div>-->
-  <!--  </div>-->
 </template>
 
 <script>
 export default {
-  head: {
-    link: [
-      {
-        rel: "stylesheet",
-        href: "https://use.fontawesome.com/releases/v5.0.6/css/all.css",
-      },
-    ],
-  },
+
 };
 </script>
 

@@ -4,8 +4,15 @@
       <hr>
       <div class="row">
         <div class="col-md-6 col-lg-2 align-self-center">
-          <h2 id="aarthiknews"><img src="~/assets/img/logo1.jpg"
-                                    alt="aarthiknews.com" style="width: 180px;"></h2>
+          <h2 id="aarthiknews">
+            <img
+              src="~/assets/img/logoo.png"
+              alt="jhilko logo"
+              height="190px"
+
+              class="img-responsive"
+              style="background-color: white"
+            /></h2>
 <!--          <ul class="social pt-2">-->
 <!--            <li class="facebook">-->
 <!--              <a title="Like us in Facebook" href="https://www.facebook.com/aarthiknews/" target="_blank">-->
