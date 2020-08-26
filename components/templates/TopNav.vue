@@ -1,13 +1,13 @@
 <template>
-  <div class="container-fluid" style="background-color: wheat">
+  <div class="container-fluid">
     <div class="row d-flex justify-content-between align-items-center">
-      <div class="col-lg-3 rd-logo">
+      <div class="col-lg-4">
         <a href>
           <img
             src="~/assets/img/logoo.png"
             alt="jhilko logo"
-            height="190px"
-            class="img-responsive"
+            height="125px"
+            class="rounded-circle"
             style="background-color: white"
           />
         </a>
