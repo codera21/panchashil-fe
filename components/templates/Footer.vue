@@ -59,15 +59,9 @@
         </div>
 
         <div class="col-md-6 col-lg-3 management-team">
+
           <div class="member">
-            <div>संचालक:</div>
-            <div>बिजय लामिछाने देवकोटा
-<!--              <a href="tel:+9779851056763">&nbsp;<i class="fa fa-mobile"></i>-->
-<!--              ९८५१०५६७६३</a>-->
-            </div>
-          </div>
-          <div class="member">
-            <div>सम्पादक:</div>
+            <div>संचालक/सम्पादक:</div>
             <div>ऋग देवकोटा<a href="tel:+9779851259881">&nbsp;<i class="fa fa-mobile"></i>
               ९८५११५०१८१</a>
             </div>
