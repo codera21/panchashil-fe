@@ -6,7 +6,6 @@
         <div class="row">
           <div class="col-12">
             <div class="rd-ads">
-
               <section class="widget">
                 <img
                   width="1536"
@@ -300,18 +299,14 @@
 
 
       <!-- /Rochak Section -->
-
-
+        
       </div>
     </div>
   </div>
-
 </template>
 
 <script>
-export default {
-
-};
+export default {};
 </script>
 
 <style>
