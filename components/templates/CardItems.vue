@@ -1,15 +1,15 @@
 <template>
-  <div class="container-fluid" style="background-color: gray;">
-  <div class="row">
-    <div v-for="item in items" :key="item.id" class="col-sm-3">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">{{ item.title }}</h5>
-          <a href="#" class="btn btn-primary">{{ item.btnTxt}}</a>
+  <div>
+    <div class="row">
+      <div v-for="item in items" :key="item.id" class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{ item.title }}</h5>
+            <a href="#" class="btn btn-primary">{{ item.btnTxt}}</a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
   </div>
 </template>
 
