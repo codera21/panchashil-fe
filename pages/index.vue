@@ -28,13 +28,33 @@
                   <h1>
 
                     <nuxt-link to="/single-page">
-                      प्रधानमन्त्री ओली रामभक्तको अवतारम
+                      अन्ततः माइक्रोसफ्टले इन्टरनेट एक्सप्लोरर बन्द गर्ने
                     </nuxt-link>
                   </h1>
 
                   <nuxt-link to="/single-page">
                     <img
-                      src="https://www.jhilko.com/wp-content/uploads/2020/08/k-p-oli.jpg"
+                      src="http://lorempixel.com/500/350/"
+                      alt="प्रधानमन्त्री ओली रामभक्तको अवतारमा"
+                      class="img-fluid lazy"
+                    />
+                  </nuxt-link>
+                  <nuxt-link to="/single-page">
+                    <p>
+                      काठमाडौं । कुनै समयको वेब ब्राउजरको बादशाह इन्टरनेट एक्सप्लोरर अन्ततः बन्द हुने भएको छ । सन् २०२१ को अगष्ट २१ देखि इन्टरनेट एक्सप्लोरर औपचारिक रुपमा बन्द हुने माइक्रोसफ्टले जनाएको छ ।                    </p>
+                  </nuxt-link>
+                </div>
+                <div class="breaking-wrap">
+                  <h1>
+
+                    <nuxt-link to="/single-page">
+                      स्वास्थ्य मन्त्रालयका प्रशासन प्रमुख विष्ट सुदूरपश्चिममा सरुवा
+                    </nuxt-link>
+                  </h1>
+
+                  <nuxt-link to="/single-page">
+                    <img
+                      src="http://lorempixel.com/520/380/"
                       alt="प्रधानमन्त्री ओली रामभक्तको अवतारमा"
                       class="img-fluid lazy"
                     />
@@ -47,32 +67,13 @@
                   <h1>
 
                     <nuxt-link to="/single-page">
-                      प्रधानमन्त्री ओली रामभक्तको अवतारम
+                      निषेधाज्ञामा सुतेर नबसौं, धेरै सुत्नुका यस्ता छन् बेफाइदा
                     </nuxt-link>
                   </h1>
 
                   <nuxt-link to="/single-page">
                     <img
-                      src="https://www.jhilko.com/wp-content/uploads/2020/08/k-p-oli.jpg"
-                      alt="प्रधानमन्त्री ओली रामभक्तको अवतारमा"
-                      class="img-fluid lazy"
-                    />
-                  </nuxt-link>
-                  <nuxt-link to="/single-page">
-                    <p>काठमाडौं । १२ वर्षको वनवास र एक वर्षको अज्ञातवासको शर्त पूरा गरेपछि कौरवले पाण्डवलाई उनीहरुको राज्य फिर्ता दिनमात्र अश्वीकार गरेनन्, पाण्डवलाई केवल पाँच गाउँ दिएर ...</p>
-                  </nuxt-link>
-                </div>
-                <div class="breaking-wrap">
-                  <h1>
-
-                    <nuxt-link to="/single-page">
-                      प्रधानमन्त्री ओली रामभक्तको अवतारम
-                    </nuxt-link>
-                  </h1>
-
-                  <nuxt-link to="/single-page">
-                    <img
-                      src="https://www.jhilko.com/wp-content/uploads/2020/08/Trump-press-conference-interrupted-after-shots-fired-outside-White-House.jpg"
+                      src="http://lorempixel.com/650/320/"
                       alt="ह्वाइट हाउस बाहिर गोली चलेपछि रोकियो ट्रम्पको प्रेस सम्मेलन"
                       class="img-fluid lazy"
                     />
@@ -111,14 +112,14 @@
             <div class="col-md-4 pb-3">
               <nuxt-link to="/single-page">
                 <img
-                  src="https://www.jhilko.com/wp-content/uploads/2020/08/Griha-mantralaya-400x225.jpg"
+                  src="http://lorempixel.com/400/226/"
                   alt
                   class="img-fluid lazy"
                 />
               </nuxt-link>
               <h2>
                 <nuxt-link to="/single-page">
-                  गृहमन्त्रालयद्वारा केही जिल्लाका प्रमुख जिल्ला अधिकारीहरुको सरुवा
+                  उपत्यकामा एकैदिन भेटिए ३०१ कोरोना संक्रमित
                 </nuxt-link>
 
               </h2>
@@ -126,21 +127,21 @@
             <div class="col-md-4 pb-3">
            <nuxt-link to="/single-page">
                 <img
-                  src="https://www.jhilko.com/wp-content/uploads/2020/07/Nepse-7.jpg"
+                  src="http://lorempixel.com/400/226/"
                   alt
                   class="img-fluid lazy"
                 />
               </nuxt-link>
               <h2>
                 <nuxt-link to="/single-page">
-                  शेयरबजारमा हरियाली छाउँदा नेप्से सूचक ३७.७४ अंकले बढ्यो
+                  उपत्यकामा एकैदिन भेटिए ३०१ कोरोना संक्रमित
                 </nuxt-link>
               </h2>
             </div>
             <div class="col-md-4 pb-3">
               <nuxt-link to="/single-page">
                 <img
-                  src="https://www.jhilko.com/wp-content/uploads/2020/08/pranab-mukharjee-400x225.jpg"
+                  src="http://lorempixel.com/400/226/"
                   alt
                   class="img-fluid lazy"
                 />
@@ -148,7 +149,7 @@
 
               <h2>
                 <nuxt-link to="/single-page">
-                भारतीय पूर्व राष्ट्रपति प्रणव मुखर्जी कोरोना संक्रमित
+                  उपत्यकामा एकैदिन भेटिए ३०१ कोरोना संक्रमित
                 </nuxt-link>
               </h2>
             </div>
@@ -160,7 +161,7 @@
               <div class="row layout-">
                 <div class="col-md-12 pb-3">
                   <div class="rd-title bg-transparent">
-                    <h2><span>प्रदेश खबर</span>
+                    <h2><span>ताजा खबर</span>
 <!--                      <a href="/category/province/" class="rd-morebtn">थप <i class="fad fa-angle-right"></i></a>-->
                     </h2>
                   </div>
@@ -169,20 +170,20 @@
                 <div class="col-md-12">
                   <div class="row">
                     <div class="col-md-3 mb-3">
-                      <nuxt-link to="/single-page"><img src="https://www.jhilko.com/wp-content/uploads/2020/08/dhulikhel-hospital-400x225.jpg"  alt="" class="img-fluid rounded lazy"></nuxt-link>
-                        <nuxt-link to="/single-page"><h4>धुलिखेल अस्पतालमा एक जना कोरोना संक्रमितको मृत्यु</h4></nuxt-link>
+                      <nuxt-link to="/single-page"><img src="http://lorempixel.com/405/227/"  alt="" class="img-fluid rounded lazy"></nuxt-link>
+                        <nuxt-link to="/single-page"><h4>कोरोनाबाट मृत्यु भएका पुरुषको रिपोर्ट : कहिले नेगेटिभ, कहिले पोजेटिभ !</h4></nuxt-link>
                     </div>
                     <div class="col-md-3 mb-3">
-                      <nuxt-link to="/single-page"><img src="https://www.jhilko.com/wp-content/uploads/2020/08/dhulikhel-hospital-400x225.jpg"  alt="" class="img-fluid rounded lazy"></nuxt-link>
-                        <nuxt-link to="/single-page"><h4>धुलिखेल अस्पतालमा एक जना कोरोना संक्रमितको मृत्यु</h4></nuxt-link>
+                      <nuxt-link to="/single-page"><img src="http://lorempixel.com/405/227/"  alt="" class="img-fluid rounded lazy"></nuxt-link>
+                        <nuxt-link to="/single-page"><h4>कोरोनाबाट मृत्यु भएका पुरुषको रिपोर्ट : कहिले नेगेटिभ, कहिले पोजेटिभ !</h4></nuxt-link>
                     </div>
                     <div class="col-md-3 mb-3">
-                      <nuxt-link to="/single-page"><img src="https://www.jhilko.com/wp-content/uploads/2020/08/dhulikhel-hospital-400x225.jpg"  alt="" class="img-fluid rounded lazy"></nuxt-link>
-                        <nuxt-link to="/single-page"><h4>धुलिखेल अस्पतालमा एक जना कोरोना संक्रमितको मृत्यु</h4></nuxt-link>
+                      <nuxt-link to="/single-page"><img src="http://lorempixel.com/405/227/"  alt="" class="img-fluid rounded lazy"></nuxt-link>
+                        <nuxt-link to="/single-page"><h4>कोरोनाबाट मृत्यु भएका पुरुषको रिपोर्ट : कहिले नेगेटिभ, कहिले पोजेटिभ !</h4></nuxt-link>
                     </div>
                     <div class="col-md-3 mb-3">
-                      <nuxt-link to="/single-page"><img src="https://www.jhilko.com/wp-content/uploads/2020/08/dhulikhel-hospital-400x225.jpg"  alt="" class="img-fluid rounded lazy"></nuxt-link>
-                        <nuxt-link to="/single-page"><h4>धुलिखेल अस्पतालमा एक जना कोरोना संक्रमितको मृत्यु</h4></nuxt-link>
+                      <nuxt-link to="/single-page"><img src="http://lorempixel.com/405/227/"  alt="" class="img-fluid rounded lazy"></nuxt-link>
+                        <nuxt-link to="/single-page"><h4>कोरोनाबाट मृत्यु भएका पुरुषको रिपोर्ट : कहिले नेगेटिभ, कहिले पोजेटिभ !</h4></nuxt-link>
                     </div>
 
 
@@ -214,24 +215,24 @@
         <div class="row">
           <div class="col-md-4">
             <div class="rd-title">
-              <h2><span>पर्यटन</span>
+              <h2><span>जीवनशैली</span>
 <!--                <a href="/category/tourism/" class="rd-morebtn">थप <i class="fad fa-angle-right"></i></a>-->
               </h2>
             </div>
             <div class="rd-wrap">
               <div class="first-layout">
                 <div class="image">
-                  <figure><nuxt-link to="/category-page"><img alt="कागेश्वरी मेला स्थगित" class="img-fluid lazy" src="https://www.jhilko.com/wp-content/uploads/2020/08/kageshwori-400x225.jpeg" ></nuxt-link></figure>
+                  <figure><nuxt-link to="/category-page"><img alt="कागेश्वरी मेला स्थगित" class="img-fluid lazy" src="http://lorempixel.com/400/225/sports/1/"></nuxt-link></figure>
                 </div>
                 <div class="teaser">
-                  <h3><nuxt-link to="/category-page">कागेश्वरी मेला स्थगित</nuxt-link></h3>
+                  <h3><nuxt-link to="/category-page">अनलाइन पढ्दा कम्प्युटरको स्क्रिनबाट आँखालाई कसरी जोगाउने ?</nuxt-link></h3>
 
 <!--                  <span class="author"><i class="fad fa-user-circle"></i> <a href="https://www.jhilko.com/author/jhilko1/" title="Posts by झिल्को डटकम" rel="author">झिल्को डटकम</a></span>-->
                 </div>
               </div>
               <div class="layout-list">
                 <div class="teaser rd-list">
-                  <h4><nuxt-link to="/category-page"> <li type="square">विदेशमा अलपत्र परेका नेपालीको उद्धार उडानको नयाँ तालिका सार्वजनिक</li></nuxt-link></h4>
+                  <h4><nuxt-link to="/category-page"> <li type="square">वसार्वजनिक सवारी साधनमा जीपीएस जडान</li></nuxt-link></h4>
                 </div>
                 <div class="teaser rd-list">
                   <h4><nuxt-link to="/category-page"><li type="square">वपर्यटकीय गन्तव्यको ‘जीआईएस म्यापिङ’</li></nuxt-link></h4>
@@ -248,10 +249,10 @@
             <div class="rd-wrap">
               <div class="first-layout">
                 <div class="image">
-                  <figure><nuxt-link to="/category-page"><img  class="img-fluid lazy" src="https://www.jhilko.com/wp-content/uploads/2020/08/ventilator-1-400x225.jpg" ></nuxt-link></figure>
+                  <figure><nuxt-link to="/category-page"><img  class="img-fluid lazy" src="http://lorempixel.com/400/225/sports/1/" ></nuxt-link></figure>
                 </div>
                 <div class="teaser">
-                  <h3><nuxt-link to="/category-page">अक्सिजन निकाल्ने &#8216;थ्रीडी प्रिन्टर भेन्टिलेटर&#8217;</nuxt-link></h3>
+                  <h3><nuxt-link to="/category-page">अनलाइन पढ्दा कम्प्युटरको स्क्रिनबाट आँखालाई कसरी जोगाउने ?</nuxt-link></h3>
 
 <!--                  <span class="author"><i class="fad fa-user-circle"></i> <a href="https://www.jhilko.com/author/jhilko1/" title="Posts by झिल्को डटकम" rel="author">झिल्को डटकम</a></span>-->
                 </div>
@@ -268,7 +269,7 @@
           </div>
           <div class="col-md-4">
             <div class="rd-title">
-              <h2><span>रोचक</span>
+              <h2><span>विजनेश</span>
 <!--                <a href="/category/exciting/" class="rd-morebtn">थप <i class="fad fa-angle-right"></i></a>-->
               </h2>
             </div>
@@ -276,10 +277,10 @@
               <div class="first-layout">
                 <div class="image">
                   <figure>
-                    <nuxt-link to="/category-page"><img alt="खोलाको पानी अचानक हरियो !" class="img-fluid lazy" src="https://www.jhilko.com/wp-content/uploads/2020/08/green-river-400x225.jpeg" ></nuxt-link></figure>
+                    <nuxt-link to="/category-page"><img alt="खोलाको पानी अचानक हरियो !" class="img-fluid lazy" src="http://lorempixel.com/400/225/sports/1/" ></nuxt-link></figure>
                 </div>
                 <div class="teaser">
-                  <h3><nuxt-link to="/category-page">खोलाको पानी अचानक हरियो !</nuxt-link></h3>
+                  <h3><nuxt-link to="/category-page">अनलाइन पढ्दा कम्प्युटरको स्क्रिनबाट आँखालाई कसरी जोगाउने ?</nuxt-link></h3>
 
 <!--                  <span class="author"><i class="fad fa-user-circle"></i> <a href="https://www.jhilko.com/author/jhilko1/" title="Posts by झिल्को डटकम" rel="author">झिल्को डटकम</a></span>-->
                 </div>

@@ -4,28 +4,28 @@
   <div class="row">
 
     <div class="col-12">
-      <div id="crumbs" class="rd-breadcrumb"><a href="https://www.jhilko.com">गृहपृष्ठ</a> &#8725; <a href="https://www.jhilko.com/category/province/">प्रदेश</a> &#8725; <span class="current">सोलुखुम्बुको रमितेमा प्रहरीमाथि दुव्र्यवहार</span></div></div>
+      <div id="crumbs" class="rd-breadcrumb"><nuxt-link to="/">गृहपृष्ठ</nuxt-link> &#8725; <nuxt-link to="/category-page">प्रदेश</nuxt-link> &#8725; <span class="current">सोलुखुम्बुको रमितेमा प्रहरीमाथि दुव्र्यवहार</span></div></div>
 <hr>
     <div class="news-top col-12">
       <div class="rd-heading">
-        <h1 class="single-heading" itemprop="name">सोलुखुम्बुको रमितेमा प्रहरीमाथि दुव्र्यवहार</h1>
+        <h1 class="single-heading" itemprop="name">अनलाइन पढ्दा कम्प्युटरको स्क्रिनबाट आँखालाई कसरी जोगाउने ?</h1>
 
         <div class="row post-meta d-flex align-items-center">
           <div class="col-lg-5">
             <div class="row">
-              <div class="col-md-12">
-                <div class="post-info d-flex align-items-center">
-                  <img src="https://www.jhilko.com/wp-content/uploads/2020/06/jhilko-150x150.png" width="60" height="60" alt="झिल्को डटकम" class="avatar avatar-60 wp-user-avatar wp-user-avatar-60 alignnone photo lazy" />
-                  <span class="rduser border-right">
-								                                    <span itemprop="author"><a href="https://www.jhilko.com/author/jhilko1/" title="Posts by झिल्को डटकम" rel="author">झिल्को डटकम</a></span>
+<!--              <div class="col-md-12">-->
+<!--                <div class="post-info d-flex align-items-center">-->
+<!--                  <img src="https://www.jhilko.com/wp-content/uploads/2020/06/jhilko-150x150.png" width="60" height="60" alt="झिल्को डटकम" class="avatar avatar-60 wp-user-avatar wp-user-avatar-60 alignnone photo lazy" />-->
+<!--                  <span class="rduser border-right">-->
+<!--								                                    <span itemprop="author"><a href="https://www.jhilko.com/author/jhilko1/" title="Posts by झिल्को डटकम" rel="author">झिल्को डटकम</a></span>-->
 
-								<span class="author-info">
-									                                                                            								</span>
-                            </span>
+<!--								<span class="author-info">-->
+<!--									                                                                            								</span>-->
+<!--                            </span>-->
 
-                  <span class="rddate" itemprop="datePublished"><i class="fal fa-clock"></i> २०७७, भदौ ८ गते ७:५१ मा प्रकाशित</span>
-                </div>
-              </div>
+<!--                  <span class="rddate" itemprop="datePublished"><i class="fal fa-clock"></i> २०७७, भदौ ८ गते ७:५१ मा प्रकाशित</span>-->
+<!--                </div>-->
+<!--              </div>-->
             </div>
           </div>
           <div class="col-lg-7 d-flex justify-content-end">
@@ -40,7 +40,7 @@
 
     <div class="col-md-9 news-detail border-right">
       <div class="img-area mb-3" itemscope="" itemtype="http://schema.org/ImageObject">
-        <img src="https://www.jhilko.com/wp-content/uploads/2020/08/police.jpg" alt="" class="img-fluid lazy">
+        <img src="http://lorempixel.com/600/325/" alt="" class="img-fluid lazy">
         <div class="fill lazy" style="" data-bg="url('https://www.jhilko.com/wp-content/uploads/2020/08/police.jpg')"></div>
       </div>
 
@@ -54,10 +54,10 @@
 
 
       <span><strong>क्याटेगोरी : </strong>
-			<a href="https://www.jhilko.com/category/province/">प्रदेश</a>,
-	<a href="https://www.jhilko.com/category/province/province-1/">प्रदेश १</a>		</span>
+        <nuxt-link to="/category-page">प्रदेश</nuxt-link>,
+        <nuxt-link to="/category-page">प्रदेश १</nuxt-link> </span>
       <br>
-      <strong>ट्याग :</strong> <a href="https://www.jhilko.com/tag/hot/">#hot</a>				<hr>
+      <strong>ट्याग :</strong> <nuxt-link to="/category-page">#hot</nuxt-link>				<hr>
       <!-- Go to www.addthis.com/dashboard to customize your tools -->
       <div class="addthis_inline_share_toolbox"></div>
       <hr>
@@ -72,74 +72,56 @@
             <div class="rd-title text-center">
               <h2><span>सम्बन्धित समाचार</span></h2>
             </div>
+            <hr>
           </div>
-          <div class="col-md-12 owl-carousel owl-theme">
-            <div class="item">
+
+          <div class="row">
+            <div class="col-md-6">
               <div class="r-wrap">
                 <div class="img-area">
-                  <a href="https://www.jhilko.com/province/province-1/7504/">
+                  <nuxt-link to="/single-page">
                     <img src="https://www.jhilko.com/wp-content/uploads/2020/08/corona-death-400x225.jpg" alt="विराटनगर र धरानमा गरी दुई जना कोरोना संक्रमितको मृत्यु" class="img-fluid rounded lazy">
-                  </a>
+                  </nuxt-link>
                 </div>
-                <h4><a href="https://www.jhilko.com/province/province-1/7504/">विराटनगर र धरानमा गरी दुई जना कोरोना संक्रमितको मृत्यु</a></h4>
+                <h5><nuxt-link to="/single-page">विराटनगर र धरानमा गरी दुई जना कोरोना संक्रमितको मृत्यु</nuxt-link></h5>
               </div>
             </div>
-            <div class="item">
+            <div class="col-md-6">
               <div class="r-wrap">
                 <div class="img-area">
-                  <a href="https://www.jhilko.com/health/7488/">
+                  <nuxt-link to="/single-page">
                     <img src="https://www.jhilko.com/wp-content/uploads/2020/08/dailekh-400x225.jpg"  alt="दैलेखमा निषेधाज्ञा लम्बियो" class="img-fluid rounded lazy">
-                  </a>
+                  </nuxt-link>
                 </div>
-                <h4><a href="https://www.jhilko.com/health/7488/">दैलेखमा निषेधाज्ञा लम्बियो</a></h4>
+                <h5><nuxt-link to="/single-page">विराटनगर र धरानमा गरी दुई जना कोरोना संक्रमितको मृत्यु</nuxt-link></h5>
               </div>
             </div>
-            <div class="item">
+            <div class="col col-md-6">
               <div class="r-wrap">
                 <div class="img-area">
-                  <a href="https://www.jhilko.com/news/7451/">
+                 <nuxt-link to="/single-page">
                     <img src="https://www.jhilko.com/wp-content/uploads/2020/08/sunsari-400x225.png" alt="सुनसरीमा पुनः एकसाताका लागि निषेधाज्ञा" class="img-fluid rounded lazy">
-                  </a>
+                 </nuxt-link>
                 </div>
-                <h4><a href="https://www.jhilko.com/news/7451/">सुनसरीमा पुनः एकसाताका लागि निषेधाज्ञा</a></h4>
+                <h5><nuxt-link to="/single-page">विराटनगर र धरानमा गरी दुई जना कोरोना संक्रमितको मृत्यु</nuxt-link></h5>
               </div>
             </div>
-            <div class="item">
+            <div class="col-md-6">
               <div class="r-wrap">
                 <div class="img-area">
-                  <a href="https://www.jhilko.com/province/province-5/7438/">
+                  <nuxt-link to="/single-page">
                     <img src="https://www.jhilko.com/wp-content/uploads/2020/08/corona-death-400x225.jpg" alt="बुटवलको कोरोना विशेष अस्पतालमा दुई जनाको मृत्यु" class="img-fluid rounded lazy">
-                  </a>
+                  </nuxt-link>
                 </div>
-                <h4><a href="https://www.jhilko.com/province/province-5/7438/">बुटवलको कोरोना विशेष अस्पतालमा दुई जनाको मृत्यु</a></h4>
+                <h5><nuxt-link to="/single-page">बुटवलको कोरोना विशेष अस्पतालमा दुई जनाको मृत्यु</nuxt-link></h5>
               </div>
             </div>
           </div>
-          <script>
-            var owl = $('.owl-carousel');
-            owl.owlCarousel({
-              loop:true,
-              margin:15,
-              autoplay:true,
-              autoplayTimeout:2000,
-              autoplayHoverPause:true,
-              responsive : {
-                0 : {
-                  items:1
-                },
-                // breakpoint from 480 up
-                480 : {
-                  items:2
-                },
-                // breakpoint from 768 up
-                1280 : {
-                  items:3
-                }
-              }
-            });
-          </script>
         </div>
       </div>
+
+
+
       <!-- /related post -->
     </div>
 
@@ -150,14 +132,15 @@
         </div>
         <div class="rd-wrap">
           <ul>
-            <li><span>१</span><a href="https://www.jhilko.com/health/4942/">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</a></li>
-            <li><span>२</span><a href="https://www.jhilko.com/politics/4662/">&#8216;जनार्दन शर्मा पनि दलाल बनाइएछन्&#8217;</a></li>
-            <li><span>३</span><a href="https://www.jhilko.com/news/4055/">कान्तिपुर पब्लिकेशन्सलाई पत्रकारहरुको &#8216;दुई रुपैयाँ&#8217;</a></li>
-            <li><span>४</span><a href="https://www.jhilko.com/exciting/4898/">पारदर्शी पीपीईले भाग्य खुल्यो नर्सको</a></li>
-            <li><span>५</span><a href="https://www.jhilko.com/views/6300/">नेपालमा सैनिक कल्याण कोषको हविगत</a></li>
-            <li><span>६</span><a href="https://www.jhilko.com/news/4578/">श्रीमती मार्ने पूर्व डीआईजी रञ्जन कोइरालाको फैसलाविरुद्ध सरकारी वकील पुनरावलोकन जाने</a></li>
-            <li><span>७</span><a href="https://www.jhilko.com/politics/4263/">नेकपामा बिचौलिया निर्णायक</a></li>
-            <li><span>८</span><a href="https://www.jhilko.com/views/4766/">राष्ट्रपतिमा पञ्चायती शैली र गन्ध</a></li>
+            <li><nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link></li>
+            <li><nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link></li>
+            <li><nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link></li>
+            <li><nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link></li>
+            <li><nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link></li>
+            <li><nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link></li>
+            <li><nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link></li>
+            <li><nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link></li>
+
           </ul>
         </div> <!-- /Popular News -->
       </div>

@@ -20,9 +20,9 @@
               </a>
               <hr />
               <div class="cat-info">
-                <a href="https://www.jhilko.com/province/province-2/6042/">
+                <nuxt-link to="/single-page">
                   <h3>उपचार नपाई मृत्यु भएपछि वीरगञ्जमा चिकित्सकको गाडी तोडफोड</h3>
-                </a>
+                </nuxt-link>
               </div>
             </div>
           </div>
@@ -37,9 +37,9 @@
               </a>
               <hr />
               <div class="cat-info">
-                <a href="https://www.jhilko.com/province/province-5/6034/">
-                  <h3>नेपालगञ्ज सेनाको निगरानीमा सिल</h3>
-                </a>
+                <nuxt-link to="/single-page">
+                  <h3>उपचार नपाई मृत्यु भएपछि वीरगञ्जमा चिकित्सकको गाडी तोडफोड</h3>
+                </nuxt-link>
               </div>
             </div>
           </div>
@@ -54,9 +54,9 @@
               </a>
               <hr />
               <div class="cat-info">
-                <a href="https://www.jhilko.com/province/6023/">
-                  <h3>वीरगञ्जमा उपचार नपाएर ज्यान गुमाएकी महिलामा कोरोना सङ्क्रमण पुष्टि</h3>
-                </a>
+                <nuxt-link to="/single-page">
+                  <h3>उपचार नपाई मृत्यु भएपछि वीरगञ्जमा चिकित्सकको गाडी तोडफोड</h3>
+                </nuxt-link>
               </div>
             </div>
           </div>
@@ -71,9 +71,9 @@
               </a>
               <hr />
               <div class="cat-info">
-                <a href="https://www.jhilko.com/news/6019/">
-                  <h3>भक्तपुरको जगातीमा मोटरसाइकल दुर्घटना, एकको मृत्यु</h3>
-                </a>
+                <nuxt-link to="/single-page">
+                  <h3>उपचार नपाई मृत्यु भएपछि वीरगञ्जमा चिकित्सकको गाडी तोडफोड</h3>
+                </nuxt-link>
               </div>
             </div>
           </div>
@@ -88,9 +88,9 @@
               </a>
               <hr />
               <div class="cat-info">
-                <a href="https://www.jhilko.com/province/province-2/6017/">
-                  <h3>भारतीय महावाणिज्य दुतावासका कर्मचारीसहित पर्सामा थप ७१ जनामा कोरोना संक्रमण&hellip;</h3>
-                </a>
+                <nuxt-link to="/single-page">
+                  <h3>उपचार नपाई मृत्यु भएपछि वीरगञ्जमा चिकित्सकको गाडी तोडफोड</h3>
+                </nuxt-link>
               </div>
             </div>
           </div>
@@ -105,9 +105,9 @@
               </a>
               <hr />
               <div class="cat-info">
-                <a href="https://www.jhilko.com/province/province-2/6017/">
-                  <h3>भारतीय महावाणिज्य दुतावासका कर्मचारीसहित पर्सामा थप ७१ जनामा कोरोना संक्रमण&hellip;</h3>
-                </a>
+                <nuxt-link to="/single-page">
+                  <h3>उपचार नपाई मृत्यु भएपछि वीरगञ्जमा चिकित्सकको गाडी तोडफोड</h3>
+                </nuxt-link>
               </div>
             </div>
           </div>
@@ -117,31 +117,30 @@
               <ul class="pagination pagination-lg">
                 <!--                  <li class="active page-item" class="page-item"><a href="https://www.jhilko.com/category/province/" class="page-link">1</a></li>-->
                 <li class="page-item">
-                  <a
-                    href="https://www.jhilko.com/category/province/page/2/"
-                    class="page-link"
-                  >2</a>
+                  <nuxt-link
+                    class="page-link" to="/category-page"
+                  >2</nuxt-link>
                 </li>
                 <li class="page-item">
-                  <a
-                    href="https://www.jhilko.com/category/province/page/3/"
+                  <nuxt-link
+                    to="/category-page"
                     class="page-link"
-                  >3</a>
+                  >3</nuxt-link>
                 </li>
                 <li class="page-item">
-                  <a href="#" class="page-link">...</a>
+                  <nuxt-link to="/category-page" class="page-link">...</nuxt-link>
                 </li>
                 <li class="page-item">
-                  <a
-                    href="https://www.jhilko.com/category/province/page/30/"
+                  <nuxt-link
+                    to="/category-page"
                     class="page-link"
-                  >30</a>
+                  >30</nuxt-link>
                 </li>
                 <li class="page-item">
                   <i class="page-link">
-                    <a
-                      href="https://www.jhilko.com/category/province/page/2/"
-                    >Next Page &raquo;</a>
+                    <nuxt-link
+                      to="/category-page"
+                    >Next Page &raquo;</nuxt-link>
                   </i>
                 </li>
               </ul>
@@ -161,39 +160,26 @@
         <div class="rd-wrap">
           <ul>
             <li>
-              <a
-                href="https://www.jhilko.com/health/4942/"
-              >बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</a>
+              <nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link>
             </li>
             <li>
-              <a
-                href="https://www.jhilko.com/politics/4662/"
-              >&#8216;जनार्दन शर्मा पनि दलाल बनाइएछन्&#8217;</a>
+              <nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link>
             </li>
             <li>
-              <a
-                href="https://www.jhilko.com/news/4055/"
-              >कान्तिपुर पब्लिकेशन्सलाई पत्रकारहरुको &#8216;दुई रुपैयाँ&#8217;</a>
+              <nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link>
             </li>
             <li>
-              <a
-                href="https://www.jhilko.com/exciting/4898/"
-              >पारदर्शी पीपीईले भाग्य खुल्यो नर्सको</a>
+              <nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link>
             </li>
             <li>
-              <a
-                href="https://www.jhilko.com/news/4578/"
-              >श्रीमती मार्ने पूर्व डीआईजी रञ्जन कोइरालाको फैसलाविरुद्ध सरकारी वकील पुनरावलोकन जाने</a>
+              <nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link>
             </li>
             <li>
-              <a href="https://www.jhilko.com/politics/4263/">नेकपामा बिचौलिया निर्णायक</a>
+              <nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link>
             </li>
-            <li>
-              <a href="https://www.jhilko.com/views/4766/">राष्ट्रपतिमा पञ्चायती शैली र गन्ध</a>
-            </li>
-            <li>
-              <a href="https://www.jhilko.com/health/4158/">लकडाउन खुल्यो, अब के गर्ने ?</a>
-            </li>
+
+
+
           </ul>
         </div>
       </div>

@@ -1,8 +1,8 @@
 <template>
   <div class="container-fluid">
-    <div class="row d-flex justify-content-between align-items-center">
-      <div class="col-lg-4">
-        <a href>
+    <div class="row">
+      <div class="col-md-4">
+        <nuxt-link to="/">
           <img
             src="~/assets/img/logoo.png"
             alt="jhilko logo"
@@ -11,15 +11,15 @@
             style="background-color: white"
           />
 
-        </a>
-        <hr />
+        </nuxt-link>
+        <hr>
         <span class="date hide-mb">
           <div id="time">
             <span class="time_date">बिहीबार, साउन २२, २०७७ / Thursday, August 6, 2020</span>
           </div>
         </span>
       </div>
-      <div class="col-lg-8">
+      <div class="col-md-8">
         <section class="widget">
           <a href="https://www.jhilko.com/epaper/">
             <img
@@ -33,8 +33,9 @@
           </a>
         </section>
       </div>
-    </div>
   </div>
+  </div>
+
 </template>
 
 <script>
