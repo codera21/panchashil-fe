@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid" style="background-color: #7F828B">
+  <div class="container-fluid" style="background-color: wheat">
   <div class="row d-flex justify-content-between align-items-center">
     <div class="col-lg-3 rd-logo">
       <a href>

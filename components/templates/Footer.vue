@@ -1,5 +1,5 @@
 <template>
-  <footer style="background-color: #7F828B">
+  <footer style="background-color: wheat">
     <div class="container-fluid">
       <hr>
       <div class="row">
@@ -35,43 +35,46 @@
         <div class="col-md-6 col-lg-2">
           <h4>सम्पर्क ठेगाना</h4>
           <ul class="list-unstyled">
-            <li><i class="fa fa-map-marker"></i> &nbsp; मध्य बानेश्वर, काठमाडौं</li>
-            <li><i class="fa fa-phone"></i> &nbsp; +९७७–१–४४७९८०४, ८०५</li>
+            <li><i class="fa fa-map-marker"></i> &nbsp;    महाराजगंज ३ , काठमाडौं</li>
+            <li><i class="fa fa-phone"></i> &nbsp; +९७७–१–४४३२०९९</li>
             <li>
-              <a href="mailto:aarthiknews@gmail.com"><i class="fa fa-envelope"></i> &nbsp;
-                aarthiknews@gmail.com</a>
+              <a href="#"><i class="fa fa-envelope"></i>
+                panchasilmedia@gmail.com
+              </a>
 
-              <a style="font-size: 12px;" href="mailto:nepalmediaeye@gmail.com"><i
-                class="fa fa-envelope"></i> &nbsp; nepalmediaeye@gmail.com</a>
+              <a href="#"><i
+                class="fa fa-envelope"></i>panchasilnews@gmail.com</a>
             </li>
           </ul>
         </div>
         <div class="col-md-6 col-lg-2">
-          <div class="member">
-            <div>अध्यक्ष</div>
-            <div>निरज्वल बस्नेत</div>
-            <div>प्रधान सम्पादक</div>
-            <div>सिताराम भट्टराई</div>
-            <div>सम्पादक</div>
-            <div>मेनुका कार्की</div>
-          </div>
+<!--          <div class="member">-->
+<!--            <div>अध्यक्ष</div>-->
+<!--            <div>निरज्वल बस्नेत</div>-->
+<!--            <div>प्रधान सम्पादक</div>-->
+<!--            <div>सिताराम भट्टराई</div>-->
+<!--            <div>सम्पादक</div>-->
+<!--            <div>मेनुका कार्की</div>-->
+<!--          </div>-->
         </div>
+
         <div class="col-md-6 col-lg-3 management-team">
           <div class="member">
-            <div>प्रमुख कार्यकारी अधिकृत</div>
-            <div>ईन्द्र बानिया <a href="tel:+9779851056763">&nbsp;<i class="fa fa-mobile"></i>
-              ९८५१०५६७६३</a>
+            <div>संचालक:</div>
+            <div>बिजय लामिछाने देवकोटा
+<!--              <a href="tel:+9779851056763">&nbsp;<i class="fa fa-mobile"></i>-->
+<!--              ९८५१०५६७६३</a>-->
             </div>
           </div>
           <div class="member">
-            <div>व्यापार प्रवद्र्धन प्रमुख</div>
-            <div>बिजय फुयाँल <a href="tel:+9779851259881">&nbsp;<i class="fa fa-mobile"></i>
-              ९८५१२५९८८१</a>
+            <div>सम्पादक:</div>
+            <div>ऋग देवकोटा<a href="tel:+9779851259881">&nbsp;<i class="fa fa-mobile"></i>
+              ९८५११५०१८१</a>
             </div>
           </div>
-          सूचना विभाग दर्ता नं.: १५३/२०७३/०७४
+          सूचना विभाग दर्ता नं.:
         </div>
-        <div class="col-md-6 col-lg-3 align-self-center mb-2 facebook-like">
+        <div class="col-md-6 col-lg-3  mb-2 facebook-like">
 <!--          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Faarthiknews%2F&tabs&width=307&height=107&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=383880808794197"-->
 <!--                  width="307" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0"-->
 <!--                  allowTransparency="true" allow="encrypted-media"></iframe>-->
