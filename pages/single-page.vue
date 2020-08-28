@@ -1,164 +1,405 @@
 <template>
-
-<div class="container">
-  <div class="row">
-
-    <div class="col-12">
-      <div id="crumbs" class="rd-breadcrumb"><nuxt-link to="/">गृहपृष्ठ</nuxt-link> &#8725; <nuxt-link to="/category-page">प्रदेश</nuxt-link> &#8725; <span class="current">सोलुखुम्बुको रमितेमा प्रहरीमाथि दुव्र्यवहार</span></div></div>
-<hr>
-    <div class="news-top col-12">
-      <div class="rd-heading">
-        <h1 class="single-heading" itemprop="name">अनलाइन पढ्दा कम्प्युटरको स्क्रिनबाट आँखालाई कसरी जोगाउने ?</h1>
-
-        <div class="row post-meta d-flex align-items-center">
-          <div class="col-lg-5">
-            <div class="row">
-<!--              <div class="col-md-12">-->
-<!--                <div class="post-info d-flex align-items-center">-->
-<!--                  <img src="https://www.jhilko.com/wp-content/uploads/2020/06/jhilko-150x150.png" width="60" height="60" alt="झिल्को डटकम" class="avatar avatar-60 wp-user-avatar wp-user-avatar-60 alignnone photo lazy" />-->
-<!--                  <span class="rduser border-right">-->
-<!--								                                    <span itemprop="author"><a href="https://www.jhilko.com/author/jhilko1/" title="Posts by झिल्को डटकम" rel="author">झिल्को डटकम</a></span>-->
-
-<!--								<span class="author-info">-->
-<!--									                                                                            								</span>-->
-<!--                            </span>-->
-
-<!--                  <span class="rddate" itemprop="datePublished"><i class="fal fa-clock"></i> २०७७, भदौ ८ गते ७:५१ मा प्रकाशित</span>-->
-<!--                </div>-->
-<!--              </div>-->
-            </div>
-          </div>
-          <div class="col-lg-7 d-flex justify-content-end">
-            <!-- Go to www.addthis.com/dashboard to customize your tools -->
-            <div class="addthis_inline_share_toolbox"></div>
-          </div>
-        </div>
-        <hr>
+<section class="singlepage-container ">
+    <div class="container">
+      <div class="advertisement">
+        <figure>
+          <a href="">
+            <img class="my-2" src="http://bg.annapurnapost.com/uploads/media/ap_1000PX-x-90px_20180902164807.gif" alt="">
+          </a>
+        </figure>
       </div>
-    </div> <!-- /news top -->
-
-
-    <div class="col-md-9 news-detail border-right">
-      <div class="img-area mb-3" itemscope="" itemtype="http://schema.org/ImageObject">
-        <img src="http://lorempixel.com/600/325/" alt="" class="img-fluid lazy">
-        <div class="fill lazy" style="" data-bg="url('https://www.jhilko.com/wp-content/uploads/2020/08/police.jpg')"></div>
-      </div>
-
-
-      <p>सोलुखुम्बु, ८ भदौ । सोलुदूधकुण्ड नगरपालिका वडा नम्बर ११ रमितेमा प्रहरी टोलीमाथि दुर्व्यवहार भएको छ । रमितेको एक होटलमा जाँडरक्सी खाएर होहल्ला गरिरहेका युवालाई सम्झाउन पुगेको प्रहरीमाथि कुटपिट भएको हो ।</p>
-      <p>प्रहरी निरीक्षक मन्दिप चौहानकाअनुसार आइतबार दिउँसो साढे ३ बजेको समयमा स्थानीय सन्तोष खड्काको होटलमा होहल्ला गर्नेलाई सम्झाउन पुगेका प्रहरीलाई ६ जना युवाको समूहले कुटपिट गरेका हुन् ।</p>
-      <p>ती युवाले प्रहरी सहायक निरीक्षक सरयुग महतोको सिठीसमेत चुँडाइदिएका छन् । सोलुखुम्बुका प्रहरी प्रमुख प्रहरी नायब उपरीक्षक टेकुनन्द इवा लिम्बुले प्रहरी सहायक निरीक्षकसहित ३ जना प्रहरीमाथि दुर्व्यवहार भएको बताए ।</p>
-      <p>प्रहरीलाई कुटपिट गर्ने पक्राउ परेका छन् । सिद्धिचरण नगरपालिका ६ ओखलढुंगाका विजय मगर, सोलुदूधकुण्ड नगरपालिका ८ बस्ने शेरबहादुर मगर, भीमबहादुर मगर, सोलुदूधकुण्ड नगरपालिका वडा नम्बर ११ बस्ने चन्द्रबहादुर मगर, मोहन कार्की र फुर्वा शेर्पालाई प्रहरीले पक्राउ गरेको हो ।</p>
-      <p>रमितेमा बैंक तथा वित्तीय संस्था खुलेसँगै आर्थिक गतिविधि बढेपछि अपराधिक घटना हुन सक्ने भन्दै गएको साउन १२ गते अस्थायी प्रहरी पोस्ट स्थापना गरिएको थियो ।</p>
-      <br>
-
-
-      <span><strong>क्याटेगोरी : </strong>
-        <nuxt-link to="/category-page">प्रदेश</nuxt-link>,
-        <nuxt-link to="/category-page">प्रदेश १</nuxt-link> </span>
-      <br>
-      <strong>ट्याग :</strong> <nuxt-link to="/category-page">#hot</nuxt-link>				<hr>
-      <!-- Go to www.addthis.com/dashboard to customize your tools -->
-      <div class="addthis_inline_share_toolbox"></div>
-      <hr>
-      <div class="rd-fb-comments">
-        <h3><i class="fad fa-comments"></i> तपाईको प्रतिक्रिया दिनुहोस</h3>
-        <div class="fb-comments" data-href="https://www.jhilko.com/province/province-1/7477/" data-numposts="5" data-width="100%"></div>
-      </div>
-      <hr>
-      <div class="container">
+       <div class="advertisement ">
+                        <figure>
+                            <a href="https://www.facebook.com/SomersbyNepal/?fref=ts" title="Tuborg  inside" target="_blank">
+                                <img src="http://bg.annapurnapost.com/uploads/media/Tuborg-Inside_20180617072141.gif" alt="">
+                            </a>
+                        </figure>
+                    </div>
         <div class="row">
-          <div class="col-md-12">
-            <div class="rd-title text-center">
-              <h2><span>सम्बन्धित समाचार</span></h2>
-            </div>
-            <hr>
-          </div>
+            <div class="col-md-8">
 
-          <div class="row">
-            <div class="col-md-6">
-              <div class="r-wrap">
-                <div class="img-area">
-                  <nuxt-link to="/single-page">
-                    <img src="https://www.jhilko.com/wp-content/uploads/2020/08/corona-death-400x225.jpg" alt="विराटनगर र धरानमा गरी दुई जना कोरोना संक्रमितको मृत्यु" class="img-fluid rounded lazy">
-                  </nuxt-link>
+                <div class="newscontainer">
+                    <header>
+                        <h2 >ओली नीतिः कांग्रेसलाई दपेट्ने, मधेसवादीलाई समेट्ने !</h2>
+                    </header>
+                   
+                    <div class="editor-container">
+                        <div class="editor-left">
+                            <img src="https://www.panchasilmedia.com/_nuxt/img/logoo.becd54a.png" alt="">
+                            <h5><b>झिल्को डटकम</b>,</h5>
+                            <div class="date">१४ भाद्र २०७५</div>
+                        </div>
+                        <div class="share-container">
+
+                        </div>
+                    </div>
+
+                    <article>
+                        <div class="thumbnail-post">
+                            <img src="https://www.onlinekhabar.com/wp-content/uploads/2017/12/KP-Oli-1.jpg" alt="">
+                        </div>
+                        <div class="content-entry">
+                            <p>
+                                प्रधानमन्त्री केपी शर्मा ओलीले आज संसदमा सरकारको नीति तथा कार्यक्रममाथि सांसदहरूले उठाएको प्रश्नको जवाफ दिँदै छन्।
+                                प्रधानमन्त्री केपी शर्मा ओलीले आज संसदमा सरकारको नीति तथा कार्यक्रममाथि सांसदहरूले उठाएको प्रश्नको जवाफ दिँदै छन्।
+
+                            </p>
+                            <blockquote>
+                                <p>
+                                    प्रधानमन्त्री केपी शर्मा ओलीले आज संसदमा सरकारको नीति तथा कार्यक्रममाथि सांसदहरूले उठाएको प्रश्नको जवाफ दिँदै छन्।
+                                    प्रधानमन्त्री केपी शर्मा ओलीले आज संसदमा सरकारको नीति तथा कार्यक्रममाथि सांसदहरूले उठाएको प्रश्नको जवाफ दिँदै छन्।
+
+                                </p>
+                            </blockquote>
+                            <p>
+                                प्रधानमन्त्री केपी शर्मा ओलीले आज संसदमा सरकारको नीति तथा कार्यक्रममाथि सांसदहरूले उठाएको प्रश्नको जवाफ दिँदै छन्।
+                                प्रधानमन्त्री केपी शर्मा ओलीले आज संसदमा सरकारको नीति तथा कार्यक्रममाथि सांसदहरूले उठाएको प्रश्नको जवाफ दिँदै छन्।
+
+                            </p>
+                            <p>
+                                प्रधानमन्त्री केपी शर्मा ओलीले आज संसदमा सरकारको नीति तथा कार्यक्रममाथि सांसदहरूले उठाएको प्रश्नको जवाफ दिँदै छन्।
+                                प्रधानमन्त्री केपी शर्मा ओलीले आज संसदमा सरकारको नीति तथा कार्यक्रममाथि सांसदहरूले उठाएको प्रश्नको जवाफ दिँदै छन्।
+
+                            </p>
+                            <p>
+                                प्रधानमन्त्री केपी शर्मा ओलीले आज संसदमा सरकारको नीति तथा कार्यक्रममाथि सांसदहरूले उठाएको प्रश्नको जवाफ दिँदै छन्।
+                                प्रधानमन्त्री केपी शर्मा ओलीले आज संसदमा सरकारको नीति तथा कार्यक्रममाथि सांसदहरूले उठाएको प्रश्नको जवाफ दिँदै छन्।
+
+                            </p>
+                            <p>
+                                प्रधानमन्त्री केपी शर्मा ओलीले आज संसदमा सरकारको नीति तथा कार्यक्रममाथि सांसदहरूले उठाएको प्रश्नको जवाफ दिँदै छन्।
+                                प्रधानमन्त्री केपी शर्मा ओलीले आज संसदमा सरकारको नीति तथा कार्यक्रममाथि सांसदहरूले उठाएको प्रश्नको जवाफ दिँदै छन्।
+
+                            </p>
+                            <p>
+                                प्रधानमन्त्री केपी शर्मा ओलीले आज संसदमा सरकारको नीति तथा कार्यक्रममाथि सांसदहरूले उठाएको प्रश्नको जवाफ दिँदै छन्।
+                                प्रधानमन्त्री केपी शर्मा ओलीले आज संसदमा सरकारको नीति तथा कार्यक्रममाथि सांसदहरूले उठाएको प्रश्नको जवाफ दिँदै छन्।
+
+                            </p>
+
+                        </div>
+                    </article>
+                    <!-- <div class="tags-container pull-right">
+                        <a href="" class="uk-badge">#अपराध</a>
+                        <a href="" class="uk-badge">#अपराध</a>
+                        <a href="" class="uk-badge">#अपराध</a>
+                    </div>
+                    <div class="clearfix"></div> -->
+
+                    <!-- <h3 class="youropinion"> प्रतिक्रिया</h3> -->
+
+
+                    <div class="module2">
+                        <div class="module2-widget box-shadow">
+                            <div class="module2-widget-wrapper ">
+                                <h2 class="module__title">
+                                    <span>सम्बन्धित समाचारहरू</span>
+                                </h2>
+                                <div class="data-holder">
+                                    <div class="section-ordering">
+                                        <p title="Delhi: Class 12 student commits suicide inside Tilak Vihar police station"
+                                           class="story section-order">
+                                            <a href="">भड्किलो तीज : हुनेखाने र हुँदा खानेबीचको दूरी बढाउँदै</a>
+                                        </p>
+                                        <p title="2 BSF jawans killed in encounter with Naxals in Chhattisgarh"
+                                           class="story section-order">
+                                            <a href="">छुट्टाछुटै घटनामा दुई जनाको मृत्यु</a>
+                                        </p>
+                                        <p title="2 BSF jawans killed in encounter with Naxals in Chhattisgarh"
+                                           class="story section-order">
+                                            <a href="">पहिरोका कारण अवरुद्ध पासाङल्हामु राजमार्ग खुलाउन आग्रह</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <h5><nuxt-link to="/single-page">विराटनगर र धरानमा गरी दुई जना कोरोना संक्रमितको मृत्यु</nuxt-link></h5>
-              </div>
             </div>
-            <div class="col-md-6">
-              <div class="r-wrap">
-                <div class="img-area">
-                  <nuxt-link to="/single-page">
-                    <img src="https://www.jhilko.com/wp-content/uploads/2020/08/dailekh-400x225.jpg"  alt="दैलेखमा निषेधाज्ञा लम्बियो" class="img-fluid rounded lazy">
-                  </nuxt-link>
+            <div class="col-md-4 ">
+              <div class="rightsection">
+                  <div class="title">
+                    <h5>
+                      लोकप्रिय
+                    </h5>
+                  </div>
+
+                <ul class="">
+                    <li>
+                        <a class="mini-newscard">
+                            <figure>
+                              <img src="http://bg.annapurnapost.com/uploads/media/balatkar-case-morang_20200828030807.jpg" alt="">
+                            </figure>
+                            <h6>किशोरीमाथि तीन बालकलाई बलात्कार गर्न लगाएपछि</h6>
+                        </a>
+                        <a class="mini-newscard">
+                            <figure>
+                              <img src="http://bg.annapurnapost.com/uploads/media/balatkar-case-morang_20200828030807.jpg" alt="">
+                            </figure>
+                            <h6>किशोरीमाथि तीन बालकलाई बलात्कार गर्न लगाएपछि</h6>
+                        </a>
+                    </li>
+                    
+                </ul>
+                </div>  
+                <div class="advertisement ">
+                    <figure>
+                        <a href="http://subisu.net.np" title="Subusu clear TV" target="_blank">
+                            <img src="http://bg.annapurnapost.com/uploads/media/Annapurna-330x90_-250-Digital-ko-sath-ma---Copy_20180909143330.gif" alt="pnpkhabar">
+                        </a>
+                    </figure>
                 </div>
-                <h5><nuxt-link to="/single-page">विराटनगर र धरानमा गरी दुई जना कोरोना संक्रमितको मृत्यु</nuxt-link></h5>
-              </div>
-            </div>
-            <div class="col col-md-6">
-              <div class="r-wrap">
-                <div class="img-area">
-                 <nuxt-link to="/single-page">
-                    <img src="https://www.jhilko.com/wp-content/uploads/2020/08/sunsari-400x225.png" alt="सुनसरीमा पुनः एकसाताका लागि निषेधाज्ञा" class="img-fluid rounded lazy">
-                 </nuxt-link>
+              
+
+                <div class="advertisement ">
+                    <figure><a href="http://annapurnapost.com/" title="College  of  Engineering" target="_blank">
+                            <img src="http://bg.annapurnapost.com/uploads/media/College-Untitled-1_20180906113825.gif" alt="">
+                        </a>
+                    </figure>
                 </div>
-                <h5><nuxt-link to="/single-page">विराटनगर र धरानमा गरी दुई जना कोरोना संक्रमितको मृत्यु</nuxt-link></h5>
-              </div>
             </div>
-            <div class="col-md-6">
-              <div class="r-wrap">
-                <div class="img-area">
-                  <nuxt-link to="/single-page">
-                    <img src="https://www.jhilko.com/wp-content/uploads/2020/08/corona-death-400x225.jpg" alt="बुटवलको कोरोना विशेष अस्पतालमा दुई जनाको मृत्यु" class="img-fluid rounded lazy">
-                  </nuxt-link>
-                </div>
-                <h5><nuxt-link to="/single-page">बुटवलको कोरोना विशेष अस्पतालमा दुई जनाको मृत्यु</nuxt-link></h5>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-
-
-
-      <!-- /related post -->
     </div>
-
-    <div class="col-md-3">
-      <div class="rd-popular">
-        <div class="rd-title text-center">
-          <h2><span>धेरै पढिएका</span></h2>
-        </div>
-        <div class="rd-wrap">
-          <ul>
-            <li><nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link></li>
-            <li><nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link></li>
-            <li><nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link></li>
-            <li><nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link></li>
-            <li><nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link></li>
-            <li><nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link></li>
-            <li><nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link></li>
-            <li><nuxt-link to="/single-page">बुटवलको लुम्बिनी सीटी अस्पतालमा यसरी हुन्छ बिरामीको खरिद बिक्रि&#8230;</nuxt-link></li>
-
-          </ul>
-        </div> <!-- /Popular News -->
-      </div>
-      <div class="rd-ads">
-        <section class="widget"><img width="617" height="454" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20617%20454'%3E%3C/svg%3E" data-src="https://www.jhilko.com/wp-content/uploads/2020/06/aayonun.jpg" class="image wp-image-54  attachment-full size-full lazy" alt="" style="max-width: 100%; height: auto;" data-srcset="https://www.jhilko.com/wp-content/uploads/2020/06/aayonun.jpg 617w, https://www.jhilko.com/wp-content/uploads/2020/06/aayonun-300x221.jpg 300w" data-sizes="(max-width: 617px) 100vw, 617px" /></section>		</div>
-    </div>
-</div>
-
-</div>
+</section>
 </template>
 
 <script>
-    export default {
-        name: "single-page"
-    }
+  export default {
+    name: "single-page"
+  }
 
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+//singlepage section
 
+.singlepage-container {
+  background: white;
+  margin-top: 5px;
+  header h2{
+    font-weight:bold;
+    margin: 20px 0 10px;
+    font-size:34px;
+  }
+  .editor-container{
+    border-bottom: 1px solid #3333;
+    margin-bottom: 10px;
+    .editor-left{
+      font-family: 'Noto Sans', sans-serif;
+      display:flex;
+      align-items: center;
+      margin: 10px 0;
+      img{
+        width: 40px;
+        border-radius: 50%;
+        margin-right: 0.5em;
+      }
+      h5{
+        margin:0;
+        font-size: 14px;
+      }
+    }
+  }
+  .newscontainer {
+    .mini-newscard {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      figure {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      .newscard-content {
+        width: initial;
+
+        h5 {
+          font-size: 1.2rem;
+          margin-top: 0;
+          margin-bottom: 5px;
+        }
+        .content {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+
+  article {
+    .thumbnail-post {
+    }
+    .content-entry {
+      margin-top: 1rem;
+      p {
+        font-size: 1.1rem;
+        strong {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+  .tags-container {
+    .uk-badge {
+      padding: 15px;
+      background: blue;
+    }
+    a:hover {
+      color: red;
+    }
+  }
+  .youropinion {
+    background: gray;
+    padding: 1%;
+    color: white;
+  }
+  .relatednews-container {
+    margin-top: 1rem;
+    a {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: blue;
+      margin-top: 5px;
+      display: block;
+    }
+  }
+  .news-list {
+    a {
+      font-size: 1.4rem;
+    }
+  }
+  .rightsection {
+    margin-top:20px;
+    .title{
+      h5{
+        font-weight: bold;
+        border-bottom:2px solid #1688CA;
+        display:inline-block;
+      }
+    }
+    .mini-newscard {
+      width: 100%;
+      display:flex;
+      align-items: center;
+      margin-bottom:10px;
+      figure{
+        img{
+          width:90px;
+          height:80px;
+          object-fit:cover;
+
+        }
+      }
+      h6{
+        padding:0 10px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  blockquote {
+    color: #777;
+    float: left;
+    font-size: 1.35em;
+    line-height: 1.3em;
+    margin: 10px 10px 10px 20px;
+    padding: 10px ;
+    text-align: left;
+    width: 300px;
+    border: none;
+    border-left:6px solid #aaaaaa;
+    background-color:#f8f8f8;
+    position:relative;
+    &:before{
+      content:'';
+      position:absolute;
+      // background: url(../quotepng.png) no-repeat scroll 0 0;
+      top:0;
+      left:0;
+      width:32px;
+      height:64px;
+    }
+
+  }
+
+}
+
+  .module__title {
+    font-size: 1.4rem;
+    display: block;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+
+    span {
+      position:relative;
+      &:after {
+        position: absolute;
+        content: '';
+        height: 3px;
+        width: 100%;
+        background: #1688CA;
+        bottom: -2px;
+        left: 0;
+      }
+    }
+
+  }
+
+    .module2 {
+
+    .module2-widget {
+      background: white;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .media {
+      flex-direction: column;
+    }
+
+    .media-list__item {
+      margin-bottom: 0;
+    }
+
+    .media__content {
+      position: relative;
+      padding-top: 5px;
+      background: transparent;
+
+      .media__title {
+        font-size: 16px;
+        margin-top: 5px;
+      }
+
+      .media__link {
+        color: #333;
+        font-weight: bold;
+        line-height: 1.4;
+      }
+    }
+  }
+
+    .section-ordering p {
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    border-top: 1px solid #eee;
+    padding: 10px 0 10px 15px;
+    margin: 0;
+    display: block;
+
+    &:before {
+      position: absolute;
+      top: 18px;
+      left: 0;
+      content: '';
+      border-radius: 100%;
+      background: #1688CA;
+      height: 5px;
+      width: 5px;
+    }
+
+    a {
+      padding: 5px 0;
+    }
+  }
 </style>
