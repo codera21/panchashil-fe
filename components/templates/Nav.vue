@@ -65,7 +65,7 @@
                 
               
             </nav>
-            <div class="menu menu--close6 mega-button  d-lg-none toggle-btn" id="sidebar-btn">
+            <div class="menu menu--close6 mega-button  d-lg-none toggle-btn" id="sidebar-btn" @click.prevent="hamopen">
               <div class="menu__icon">
                   <div class="menu__line menu__line--1"></div>
                   <div class="menu__line menu__line--2"></div>
@@ -227,20 +227,21 @@
     </div>
 
    
-<div class="sidebar-container">
-    <div class="overlay"></div>
-    <form action="">
+<div class="sidebar-container" :class="{ 'active': isActive }">
+    <div class="overlay" @click.prevent="hamopen"></div>
+    <div>
+ <!-- <form action="">
         <input type="text" placeholder="Search...">
-    </form>
+    </form> -->
     <ul class="main-list">
-        <li class="main-list-item"><a href=""><span>न्युज रूम</span><i class="fas fa-angle-down"></i></a>
-            <ul class="submain-list">
+        <li class="main-list-item"><a href=""><span>न्युज रूम</span></a>
+            <!-- <ul class="submain-list">
                 <li><a href="">one</a></li>
                 <li><a href="">one</a></li>
                 <li><a href="">one</a></li>
                 <li><a href="">one</a></li>
                 <li><a href="">one</a></li>
-            </ul>
+            </ul> -->
         </li>
         <li class="main-list-item"><a href=""><span>दृष्टिकोण</span></a></li>
         <li class="main-list-item"><a href=""><span>मल्टिमिडिया</span></a></li>
@@ -261,6 +262,9 @@
         <li><a href="">केपी शर्मा ओली</a></li>
         <li><a href="">प्रियंका कार्की</a></li>
     </ul>
+
+    </div>
+   
 </div>
 
     
@@ -270,7 +274,19 @@
 
 <script>
 
-export default {};
+export default {
+    name:"nav",
+    data(){
+        return{
+            isActive:false
+        }
+    },
+    methods:{
+        hamopen(){
+            this.isActive = !this.isActive;
+        }
+    }
+};
 </script>
 
 <style scoped lang="scss">
