@@ -1,103 +1,77 @@
 <template>
-  <footer style="background-color: wheat">
-    <div class="container-fluid">
-      <hr>
-      <div class="row">
-        <div class="col-md-6 col-lg-2 align-self-center">
-          <h2 id="aarthiknews">
-            <img
-              src="~/assets/img/logoo.png"
-              alt="jhilko logo"
-              height="190px"
+  <footer class="footer">
+    <div class="top-footer">
+        <div class="container">
+            <div class="footer-logo-social">
+                <div class="footer-logo">
+                    <a href="" class="logoname">
+                                            <img src="https://www.panchasilmedia.com/_nuxt/img/logoo.becd54a.png" alt="">
+                    </a>
 
-              class="img-responsive"
-              style="background-color: white"
-            /></h2>
-<!--          <ul class="social pt-2">-->
-<!--            <li class="facebook">-->
-<!--              <a title="Like us in Facebook" href="https://www.facebook.com/aarthiknews/" target="_blank">-->
-<!--                <i class="fa fa-facebook"></i>-->
-<!--              </a>-->
-<!--            </li>-->
-<!--            <li class="twitter">-->
-<!--              <a title="Follow us in Twitter" href="https://twitter.com/arthiknews" target="_blank">-->
-<!--                <i class="fa fa-twitter"></i>-->
-<!--              </a>-->
-<!--            </li>-->
-<!--            <li class="youtube">-->
-<!--              <a title="Subscribe us in Youtube" href="https://www.youtube.com/c/AarthikNewsVideo"-->
-<!--                 target="_blank">-->
-<!--                <i class="fa fa-youtube-play"></i>-->
-<!--              </a>-->
-<!--            </li>-->
-<!--          </ul>-->
-        </div>
-        <div class="col-md-6 col-lg-2">
-          <h4>सम्पर्क ठेगाना</h4>
-          <ul class="list-unstyled">
-            <li><i class="fa fa-map-marker"></i> &nbsp;    महाराजगंज ३ , काठमाडौं</li>
-            <li><i class="fa fa-phone"></i> &nbsp; +९७७–१–४४३२०९९</li>
-            <li>
-              <a href="#"><i class="fa fa-envelope"></i>
-                panchasilmedia@gmail.com
-              </a>
-
-              <a href="#"><i
-                class="fa fa-envelope"></i>panchasilnews@gmail.com</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-6 col-lg-2">
-<!--          <div class="member">-->
-<!--            <div>अध्यक्ष</div>-->
-<!--            <div>निरज्वल बस्नेत</div>-->
-<!--            <div>प्रधान सम्पादक</div>-->
-<!--            <div>सिताराम भट्टराई</div>-->
-<!--            <div>सम्पादक</div>-->
-<!--            <div>मेनुका कार्की</div>-->
-<!--          </div>-->
-        </div>
-
-        <div class="col-md-6 col-lg-3 management-team">
-
-          <div class="member">
-            <div>संचालक/सम्पादक:</div>
-            <div>ऋग देवकोटा<a href="tel:+9779851259881">&nbsp;<i class="fa fa-mobile"></i>
-              ९८५११५०१८१</a>
+                </div>
+                <div class="footer-social-icons">
+                    <div class="footer-social-icons-text">Follow us on :</div>
+                    <div class="link-follow">
+                        <a class="twitter fab fa-twitter" title="Twitter" href=""></a>
+                        <a class="instagram fab fa-instagram" title="instagram" href=""></a>
+                        <a class="googleplus fab fa-google-plus-g" title="Google" href=""></a>
+                        <a class="facebook fab fa-facebook-f" title="Facebook" href=""></a>
+                    </div>
+                </div>
             </div>
-          </div>
-          सूचना विभाग दर्ता नं.:
-        </div>
-        <div class="col-md-6 col-lg-3  mb-2 facebook-like">
-<!--          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Faarthiknews%2F&tabs&width=307&height=107&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=383880808794197"-->
-<!--                  width="307" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0"-->
-<!--                  allowTransparency="true" allow="encrypted-media"></iframe>-->
-          <iframe
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="left-title footer-title">Need help?</div>
+                    <ul class="contact-details liststyle--none">
+                      <li>Location <a href="">महाराजगंज ३ , काठमाडौं</a></li>
+                        <li>Call us <a href="#">+९७७–१–४४३२०९९</a></li>
+                        <li>E-mail us <a href="#">panchasilmedia@gmail.com</a></li>
+                        <li>E-mail us <a href="#">panchasilnews@gmail.com</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="left-title footer-title">Who we are?</div>
+                    <p>
+                        Panchasil Media Pvt. Ltd. is a registered company
+                         under the company act of Nepal Government for news and information.
+                    </p>
+
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="left-title footer-title ">Our team</div>
+                    <ul class="liststyle--none footer-our-team">
+                        <li>
+                            <h5>संचालक/सम्पादक</h5>
+                            <span>ऋग देवकोटा</span>
+                            <p>९८५११५०१८१</p>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+                <div class="col-md-3">
+                            <iframe
             src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpanchasilmedia&tabs=events&width=307&height=130&small_header=false&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=1035163146859672"
-            width="307" height="120" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            width="100%" height="100%" style="border:none;overflow:hidden"  frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
+                </div>
+
+            </div>
         </div>
-      </div>
+
 
     </div>
-  </footer>
+    <div class="bottom-footer">
+        <span>
+            Copyright © 2020 All Rights Reserved. Developed by <a href="">Info</a>
+        </span>
+
+    </div>
+</footer>
 </template>
-<!--<div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown">-->
-<!--  <h3>Contact</h3>-->
-<!--  <p><i class="fas fa-map-marker-alt"></i> Via Rossini 10, 10136 Turin Italy</p>-->
-<!--  <p><i class="fas fa-phone"></i> Phone: (0039) 333 12 68 347</p>-->
-<!--  <p><i class="fas fa-envelope"></i> Email: <a href="mailto:hello@domain.com">hello@domain.com</a></p>-->
-<!--  <p><i class="fab fa-skype"></i> Skype: you_online</p>-->
-<!--</div>-->
-<!--<div class="col-md-4 col-lg-3 footer-social wow fadeInUp">-->
-<!--  <h3>Follow us</h3>-->
-<!--  <p>-->
-<!--    <a href="#"><i class="fab fa-facebook"></i></a>-->
-<!--    <a href="#"><i class="fab fa-twitter"></i></a>-->
-<!--    <a href="#"><i class="fab fa-google-plus-g"></i></a>-->
-<!--    <a href="#"><i class="fab fa-instagram"></i></a>-->
-<!--    <a href="#"><i class="fab fa-pinterest"></i></a>-->
-<!--  </p>-->
-<!--</div>-->
+
 <script>
   export default {
     head:{
@@ -111,6 +85,116 @@
   };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 
+.footer {
+
+  .top-footer {
+    background-color: #22282e;
+    color: #898d90;
+    padding-bottom: 2rem;
+  }
+  .footer-logo-social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2em 0;
+    border-bottom: 1px solid white;
+    margin-bottom: 2rem;
+  }
+  .footer-social-icons {
+    display: flex;
+    align-items: center;
+    &-text {
+      margin-right: 10px;
+    }
+  }
+  .logoname {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    //font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 2px;
+    line-height: 3rem;
+    width: 100px;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .contact h4 {
+    color: white;
+    font-size: 14px;
+  }
+  .link-follow a {
+    font-size: 1.4rem;
+    margin: 0 20px 5px 0;
+    display: inline-block;
+    color: #898d90;
+    transition: color 0.1s linear;
+    &.twitter:hover {
+      color: #55acee
+    }
+    &.instagram:hover {
+      color: #e4405f
+    }
+    &.googleplus:hover {
+      color: #dd4b39
+    }
+    &.facebook:hover {
+      color: #3b5999
+    }
+  }
+  .footer-title {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform:capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 1.4rem;
+    color: white;
+    @media screen and (max-width: 1092px) {
+      margin-top: 1.4rem;
+      margin-bottom: 5px;
+    }
+  }
+  .contact-details {
+    li {
+      font-size: 15px;
+      line-height: 32px;
+      color: #757575;
+    }
+  }
+  ul {
+    line-height: 24px;
+    li {
+      font-size: 12px;
+    }
+    a {
+      color: #d8d9d9;
+      transition: color 0.1s linear;
+      font-size: 14px;
+      &:hover {
+        color: white;
+
+      }
+    }
+  }
+  p, b {
+    color: #898d90;
+  }
+  .bottom-footer {
+    background: #14181c;
+    text-align: center;
+    font-size: 12px;
+    padding: 1% 0;
+    color: white;
+    a {
+      color: #1688CA;
+    }
+  }
+  .footer-our-team {
+    h5 {
+      color: white;
+    }
+  }
+}
 </style>

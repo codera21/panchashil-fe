@@ -1,344 +1,422 @@
 <template>
   <div>
     <div class="container">
-      <div class="container-fluid">
-        <!--      //ad section-->
-        <div class="row">
-          <div class="col-12">
-            <div class="rd-ads">
-              <section class="widget">
-                <img
-                  width="1536"
-                  height="213"
-                  src="https://via.placeholder.com/1536X213.png?text=Your Ads here"
-                  class="image wp-image-2734 attachment-full size-full lazy"
-                  style="max-width: 100%; height: auto;"
-                />
-              </section>
-            </div>
+      <!--      //ad section-->
+      <div class="row">
+        <div class="col-12">
+          <div class="rd-ads">
+            <section class="widget">
+              <img width="1536" height="213" src="https://via.placeholder.com/1536X213.png?text=Your Ads here"
+                class="image wp-image-2734 attachment-full size-full lazy" style="max-width: 100%; height: auto;" />
+            </section>
           </div>
         </div>
-        <!--      //end ad-->
-        <hr />
-        <section class="breaking">
-          <div class="container">
-            <div class="row d-flex justify-content-center">
-              <div class="col-12">
-                <div class="breaking-wrap">
-                  <h1>
+      </div>
+    </div>
+    <div class="container">
+      <!--      //end ad-->
+      <section class="breakingNews-section">
+        <div class="breakingNews-wrap">
+          <h1 class="text-center">
+            <nuxt-link to="/single-page">
+              अन्ततः माइक्रोसफ्टले इन्टरनेट एक्सप्लोरर बन्द गर्ने
+            </nuxt-link>
+          </h1>
 
-                    <nuxt-link to="/single-page">
-                      अन्ततः माइक्रोसफ्टले इन्टरनेट एक्सप्लोरर बन्द गर्ने
-                    </nuxt-link>
-                  </h1>
+          <nuxt-link to="/single-page">
+            <img src="http://lorempixel.com/500/350/" alt="प्रधानमन्त्री ओली रामभक्तको अवतारमा" class="img-fluid" />
+          </nuxt-link>
+          <nuxt-link to="/single-page">
+            <p>
+              काठमाडौं । कुनै समयको वेब ब्राउजरको बादशाह इन्टरनेट एक्सप्लोरर अन्ततः बन्द हुने भएको छ । सन् २०२१
+              को अगष्ट २१ देखि इन्टरनेट एक्सप्लोरर औपचारिक रुपमा बन्द हुने माइक्रोसफ्टले जनाएको छ । </p>
+          </nuxt-link>
+        </div>
+        <div class="breakingNews-wrap">
+          <h1>
 
-                  <nuxt-link to="/single-page">
-                    <img
-                      src="http://lorempixel.com/500/350/"
-                      alt="प्रधानमन्त्री ओली रामभक्तको अवतारमा"
-                      class="img-fluid lazy"
-                    />
-                  </nuxt-link>
-                  <nuxt-link to="/single-page">
-                    <p>
-                      काठमाडौं । कुनै समयको वेब ब्राउजरको बादशाह इन्टरनेट एक्सप्लोरर अन्ततः बन्द हुने भएको छ । सन् २०२१ को अगष्ट २१ देखि इन्टरनेट एक्सप्लोरर औपचारिक रुपमा बन्द हुने माइक्रोसफ्टले जनाएको छ ।                    </p>
-                  </nuxt-link>
-                </div>
-                <div class="breaking-wrap">
-                  <h1>
+            <nuxt-link to="/single-page">
+              स्वास्थ्य मन्त्रालयका प्रशासन प्रमुख विष्ट सुदूरपश्चिममा सरुवा
+            </nuxt-link>
+          </h1>
 
-                    <nuxt-link to="/single-page">
-                      स्वास्थ्य मन्त्रालयका प्रशासन प्रमुख विष्ट सुदूरपश्चिममा सरुवा
-                    </nuxt-link>
-                  </h1>
+          <nuxt-link to="/single-page">
+            <img src="http://lorempixel.com/520/380/" alt="प्रधानमन्त्री ओली रामभक्तको अवतारमा"
+              class="img-fluid lazy" />
+          </nuxt-link>
+          <nuxt-link to="/single-page">
+            <p>काठमाडौं । १२ वर्षको वनवास र एक वर्षको अज्ञातवासको शर्त पूरा गरेपछि कौरवले पाण्डवलाई उनीहरुको
+              राज्य फिर्ता दिनमात्र अश्वीकार गरेनन्, पाण्डवलाई केवल पाँच गाउँ दिएर ...</p>
+          </nuxt-link>
+        </div>
+        <div class="breakingNews-wrap">
+          <h1>
 
-                  <nuxt-link to="/single-page">
-                    <img
-                      src="http://lorempixel.com/520/380/"
-                      alt="प्रधानमन्त्री ओली रामभक्तको अवतारमा"
-                      class="img-fluid lazy"
-                    />
-                  </nuxt-link>
-                  <nuxt-link to="/single-page">
-                    <p>काठमाडौं । १२ वर्षको वनवास र एक वर्षको अज्ञातवासको शर्त पूरा गरेपछि कौरवले पाण्डवलाई उनीहरुको राज्य फिर्ता दिनमात्र अश्वीकार गरेनन्, पाण्डवलाई केवल पाँच गाउँ दिएर ...</p>
-                  </nuxt-link>
-                </div>
-                <div class="breaking-wrap">
-                  <h1>
+            <nuxt-link to="/single-page">
+              निषेधाज्ञामा सुतेर नबसौं, धेरै सुत्नुका यस्ता छन् बेफाइदा
+            </nuxt-link>
+          </h1>
 
-                    <nuxt-link to="/single-page">
-                      निषेधाज्ञामा सुतेर नबसौं, धेरै सुत्नुका यस्ता छन् बेफाइदा
-                    </nuxt-link>
-                  </h1>
-
-                  <nuxt-link to="/single-page">
-                    <img
-                      src="http://lorempixel.com/650/320/"
-                      alt="ह्वाइट हाउस बाहिर गोली चलेपछि रोकियो ट्रम्पको प्रेस सम्मेलन"
-                      class="img-fluid lazy"
-                    />
-                  </nuxt-link>
-                  <nuxt-link to="/single-page">
-                    <p>काठमाडौं । १२ वर्षको वनवास र एक वर्षको अज्ञातवासको शर्त पूरा गरेपछि कौरवले पाण्डवलाई उनीहरुको राज्य फिर्ता दिनमात्र अश्वीकार गरेनन्, पाण्डवलाई केवल पाँच गाउँ दिएर ...</p>
-                  </nuxt-link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- /Breaking -->
-        <!-- /Breaking -->
-        <hr />
-        <!--      //ad section-->
-        <div class="row">
-          <div class="col-12">
-            <div class="rd-ads">
-              <section class="widget">
-                <img
-                  width="1536"
-                  height="213"
-                  src="https://via.placeholder.com/1536X213.png?text=Your Ads here"
-                  class="image wp-image-2734 attachment-full size-full lazy"
-                  style="max-width: 100%; height: auto;"
-                />
-              </section>
-            </div>
+          <nuxt-link to="/single-page">
+            <img src="http://lorempixel.com/650/320/" alt="ह्वाइट हाउस बाहिर गोली चलेपछि रोकियो ट्रम्पको प्रेस सम्मेलन"
+              class="img-fluid lazy" />
+          </nuxt-link>
+          <nuxt-link to="/single-page">
+            <p>काठमाडौं । १२ वर्षको वनवास र एक वर्षको अज्ञातवासको शर्त पूरा गरेपछि कौरवले पाण्डवलाई उनीहरुको
+              राज्य फिर्ता दिनमात्र अश्वीकार गरेनन्, पाण्डवलाई केवल पाँच गाउँ दिएर ...</p>
+          </nuxt-link>
+        </div>
+      </section>
+      <!-- /Breaking -->
+      <!-- /Breaking -->
+      <hr />
+    </div>
+    <div class="container">
+      <!--      //ad section-->
+      <div class="row">
+        <div class="col-12">
+          <div class="rd-ads">
+            <section class="widget">
+              <img width="1536" height="213" src="https://via.placeholder.com/1536X213.png?text=Your Ads here"
+                class="image wp-image-2734 attachment-full size-full lazy" style="max-width: 100%; height: auto;" />
+            </section>
           </div>
         </div>
-        <!--      ad-->
-        <hr />
-        <div class="container-fluid">
+      </div>
+      <!--      ad-->
+      <hr />
+    </div>
+    <div class="container">
+      <section class="threeGrid-section">
+        <div class="row">
+          <div class="col-md-4 ">
+            <div class="threeGrid-section-card newsCard">
+              <nuxt-link to="/single-page">
+                <img src="http://lorempixel.com/400/226/" alt="" class="img-fluid" />
+              </nuxt-link>
+              <h4>
+                <nuxt-link to="/single-page">
+                  उपत्यकामा एकैदिन भेटिए ३०१ कोरोना संक्रमित
+                </nuxt-link>
+              </h4>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="threeGrid-section-card">
+              <nuxt-link to="/single-page">
+                <img src="http://lorempixel.com/400/226/" alt="" class="img-fluid" />
+              </nuxt-link>
+              <h4>
+                <nuxt-link to="/single-page">
+                  उपत्यकामा एकैदिन भेटिए ३०१ कोरोना संक्रमित
+                </nuxt-link>
+              </h4>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="threeGrid-section-card">
+              <nuxt-link to="/single-page">
+                <img src="http://lorempixel.com/400/226/" alt="" class="img-fluid" />
+              </nuxt-link>
+              <h4>
+                <nuxt-link to="/single-page">
+                  उपत्यकामा एकैदिन भेटिए ३०१ कोरोना संक्रमित
+                </nuxt-link>
+              </h4>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <hr>
+    </div>
+    <div class="">
+      <div class="mero-desh fourGrid-section">
+        <div class="container">
+          <div class="grid-title">
+            <span>ताजा खबर</span>
+          </div>
+
           <div class="row">
-            <div class="col-md-4 pb-3">
-              <nuxt-link to="/single-page">
-                <img
-                  src="http://lorempixel.com/400/226/"
-                  alt
-                  class="img-fluid lazy"
-                />
-              </nuxt-link>
-              <h2>
-                <nuxt-link to="/single-page">
-                  उपत्यकामा एकैदिन भेटिए ३०१ कोरोना संक्रमित
+            <div class="col-md-3 mb-3">
+              <div class="fourGrid-section-card box-shadow">
+                <nuxt-link to="/single-page"><img src="http://lorempixel.com/405/227/" alt="" class="img-fluid">
                 </nuxt-link>
-
-              </h2>
-            </div>
-            <div class="col-md-4 pb-3">
-           <nuxt-link to="/single-page">
-                <img
-                  src="http://lorempixel.com/400/226/"
-                  alt
-                  class="img-fluid lazy"
-                />
-              </nuxt-link>
-              <h2>
                 <nuxt-link to="/single-page">
-                  उपत्यकामा एकैदिन भेटिए ३०१ कोरोना संक्रमित
+                  <span class="card-title">कोरोनाबाट मृत्यु भएका पुरुषको रिपोर्ट : कहिले नेगेटिभ, कहिले पोजेटिभ !</span>
                 </nuxt-link>
-              </h2>
+              </div>
             </div>
-            <div class="col-md-4 pb-3">
-              <nuxt-link to="/single-page">
-                <img
-                  src="http://lorempixel.com/400/226/"
-                  alt
-                  class="img-fluid lazy"
-                />
-              </nuxt-link>
-
-              <h2>
+            <div class="col-md-3 mb-3">
+              <div class="fourGrid-section-card box-shadow">
+                <nuxt-link to="/single-page"><img src="http://lorempixel.com/405/227/" alt="" class="img-fluid">
+                </nuxt-link>
                 <nuxt-link to="/single-page">
-                  उपत्यकामा एकैदिन भेटिए ३०१ कोरोना संक्रमित
+                  <span class="card-title">कोरोनाबाट मृत्यु भएका पुरुषको रिपोर्ट : कहिले नेगेटिभ, कहिले पोजेटिभ !</span>
                 </nuxt-link>
-              </h2>
+              </div>
             </div>
-          </div>
-        </div>
-          <hr>
-          <div class="mero-desh">
-            <div class="container-fluid" style="background-color: whitesmoke">
-              <div class="row layout-">
-                <div class="col-md-12 pb-3">
-                  <div class="rd-title bg-transparent">
-                    <h2><span>ताजा खबर</span>
-<!--                      <a href="/category/province/" class="rd-morebtn">थप <i class="fad fa-angle-right"></i></a>-->
-                    </h2>
-                  </div>
-                </div>
-
-                <div class="col-md-12">
-                  <div class="row">
-                    <div class="col-md-3 mb-3">
-                      <nuxt-link to="/single-page"><img src="http://lorempixel.com/405/227/"  alt="" class="img-fluid rounded lazy"></nuxt-link>
-                        <nuxt-link to="/single-page"><h4>कोरोनाबाट मृत्यु भएका पुरुषको रिपोर्ट : कहिले नेगेटिभ, कहिले पोजेटिभ !</h4></nuxt-link>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                      <nuxt-link to="/single-page"><img src="http://lorempixel.com/405/227/"  alt="" class="img-fluid rounded lazy"></nuxt-link>
-                        <nuxt-link to="/single-page"><h4>कोरोनाबाट मृत्यु भएका पुरुषको रिपोर्ट : कहिले नेगेटिभ, कहिले पोजेटिभ !</h4></nuxt-link>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                      <nuxt-link to="/single-page"><img src="http://lorempixel.com/405/227/"  alt="" class="img-fluid rounded lazy"></nuxt-link>
-                        <nuxt-link to="/single-page"><h4>कोरोनाबाट मृत्यु भएका पुरुषको रिपोर्ट : कहिले नेगेटिभ, कहिले पोजेटिभ !</h4></nuxt-link>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                      <nuxt-link to="/single-page"><img src="http://lorempixel.com/405/227/"  alt="" class="img-fluid rounded lazy"></nuxt-link>
-                        <nuxt-link to="/single-page"><h4>कोरोनाबाट मृत्यु भएका पुरुषको रिपोर्ट : कहिले नेगेटिभ, कहिले पोजेटिभ !</h4></nuxt-link>
-                    </div>
-
-
-                  </div>
-                </div>
-
+            <div class="col-md-3 mb-3">
+              <div class="fourGrid-section-card box-shadow">
+                <nuxt-link to="/single-page"><img src="http://lorempixel.com/405/227/" alt="" class="img-fluid">
+                </nuxt-link>
+                <nuxt-link to="/single-page">
+                  <span class="card-title">कोरोनाबाट मृत्यु भएका पुरुषको रिपोर्ट : कहिले नेगेटिभ, कहिले पोजेटिभ !</span>
+                </nuxt-link>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="fourGrid-section-card box-shadow">
+                <nuxt-link to="/single-page"><img src="http://lorempixel.com/405/227/" alt="" class="img-fluid">
+                </nuxt-link>
+                <nuxt-link to="/single-page">
+                  <span class="card-title">कोरोनाबाट मृत्यु भएका पुरुषको रिपोर्ट : कहिले नेगेटिभ, कहिले पोजेटिभ !</span>
+                </nuxt-link>
               </div>
             </div>
           </div>
-        <hr>
-        <!--      //ad section-->
+        </div>
+      </div>
+      <!--      //ad section-->
+      <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="rd-ads">
+            <div class="rd-ads my-3">
               <section class="widget">
-                <img
-                  width="1536"
-                  height="213"
-                  src="https://via.placeholder.com/1536X213.png?text=Your Ads here"
-                  class="image wp-image-2734 attachment-full size-full lazy"
-                  style="max-width: 100%; height: auto;"
-                />
+                <img width="1536" height="213" src="https://via.placeholder.com/1536X213.png?text=Your Ads here"
+                  class="image wp-image-2734 attachment-full size-full lazy" style="max-width: 100%; height: auto;" />
               </section>
             </div>
           </div>
         </div>
         <!--      ad-->
-        <hr>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="rd-title">
-              <h2><span>जीवनशैली</span>
-<!--                <a href="/category/tourism/" class="rd-morebtn">थप <i class="fad fa-angle-right"></i></a>-->
-              </h2>
-            </div>
-            <div class="rd-wrap">
-              <div class="first-layout">
-                <div class="image">
-                  <figure><nuxt-link to="/category-page"><img alt="कागेश्वरी मेला स्थगित" class="img-fluid lazy" src="http://lorempixel.com/400/225/sports/1/"></nuxt-link></figure>
-                </div>
-                <div class="teaser">
-                  <h3><nuxt-link to="/category-page">अनलाइन पढ्दा कम्प्युटरको स्क्रिनबाट आँखालाई कसरी जोगाउने ?</nuxt-link></h3>
 
-<!--                  <span class="author"><i class="fad fa-user-circle"></i> <a href="https://www.jhilko.com/author/jhilko1/" title="Posts by झिल्को डटकम" rel="author">झिल्को डटकम</a></span>-->
-                </div>
-              </div>
-              <div class="layout-list">
-                <div class="teaser rd-list">
-                  <h4><nuxt-link to="/category-page"> <li type="square">वसार्वजनिक सवारी साधनमा जीपीएस जडान</li></nuxt-link></h4>
-                </div>
-                <div class="teaser rd-list">
-                  <h4><nuxt-link to="/category-page"><li type="square">वपर्यटकीय गन्तव्यको ‘जीआईएस म्यापिङ’</li></nuxt-link></h4>
-                </div>
-              </div>
-            </div> <!-- /Paryatan Section -->
-          </div>
-          <div class="col-md-4">
-            <div class="rd-title">
-              <h2><span>विज्ञान</span>
-<!--                <a href="/category/science/" class="rd-morebtn">थप <i class="fad fa-angle-right"></i></a>-->
-              </h2>
-            </div>
-            <div class="rd-wrap">
-              <div class="first-layout">
-                <div class="image">
-                  <figure><nuxt-link to="/category-page"><img  class="img-fluid lazy" src="http://lorempixel.com/400/225/sports/1/" ></nuxt-link></figure>
-                </div>
-                <div class="teaser">
-                  <h3><nuxt-link to="/category-page">अनलाइन पढ्दा कम्प्युटरको स्क्रिनबाट आँखालाई कसरी जोगाउने ?</nuxt-link></h3>
+      </div>
 
-<!--                  <span class="author"><i class="fad fa-user-circle"></i> <a href="https://www.jhilko.com/author/jhilko1/" title="Posts by झिल्को डटकम" rel="author">झिल्को डटकम</a></span>-->
-                </div>
-              </div>
-              <div class="layout-list">
-                <div class="teaser rd-list">
-                  <h4><nuxt-link to="/category-page"><li type="square">सार्वजनिक सवारी साधनमा जीपीएस जडान</li></nuxt-link></h4>
-                </div>
-                <div class="teaser rd-list">
-                  <h4><nuxt-link to="/category-page"><li type="square">पृथ्वीमा अहिलेसम्मकै सर्वाधिक तापक्रम रेकर्ड</li></nuxt-link></h4>
-                </div>
-              </div>
-            </div> <!-- /Bigyan Section -->
-          </div>
-          <div class="col-md-4">
-            <div class="rd-title">
-              <h2><span>विजनेश</span>
-<!--                <a href="/category/exciting/" class="rd-morebtn">थप <i class="fad fa-angle-right"></i></a>-->
-              </h2>
-            </div>
-            <div class="rd-wrap">
-              <div class="first-layout">
-                <div class="image">
-                  <figure>
-                    <nuxt-link to="/category-page"><img alt="खोलाको पानी अचानक हरियो !" class="img-fluid lazy" src="http://lorempixel.com/400/225/sports/1/" ></nuxt-link></figure>
-                </div>
-                <div class="teaser">
-                  <h3><nuxt-link to="/category-page">अनलाइन पढ्दा कम्प्युटरको स्क्रिनबाट आँखालाई कसरी जोगाउने ?</nuxt-link></h3>
-
-<!--                  <span class="author"><i class="fad fa-user-circle"></i> <a href="https://www.jhilko.com/author/jhilko1/" title="Posts by झिल्को डटकम" rel="author">झिल्को डटकम</a></span>-->
-                </div>
-              </div>
-              <div class="layout-list">
-                <div class="teaser rd-list">
-                  <h4><nuxt-link to="/category-page"><li type="square">कोरोना महामारीबाट मुक्त यी दश देश </li></nuxt-link></h4>
-                </div>
-                <div class="teaser rd-list">
-                  <h4><nuxt-link to="/category-page"><li type="square">यो हो गधाको दुधको पहिलो डेरी !</li></nuxt-link></h4>
+      <div class="container">
+        <div class="row module2">
+          <div class="col-md-4 col-sm-4">
+            <div class="module2-widget box-shadow">
+              <div class="module2-widget-wrapper ">
+                <h2 class="module__title">
+                  <a href="">समाज</a>
+                </h2>
+                <div class="data-holder">
+                  <div class="section-ordering">
+                    <div class="media-list__item ">
+                      <div class="media ">
+                        <div class="media__image">
+                          
+                            <img src="https://www.jhilko.com/wp-content/uploads/2020/08/covid-vaccine-1-400x225.jpg"
+                              class=""
+                              alt="">
+                         
+                        </div>
+                        <div class="media__content">
+                          <h3 class="media__title">
+                            <a class="media__link" href="">गोसाइँकुण्डमा भक्तजनको भीड</a>
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <p 
+                      class="">
+                      <a href="" title="">भड्किलो तीज : हुनेखाने र हुँदा खानेबीचको दूरी बढाउँदै</a>
+                    </p>
+                    <p  class="">
+                      <a href="" title="">छुट्टाछुटै घटनामा दुई जनाको मृत्यु</a>
+                    </p>
+                    <p  class="">
+                      <a href="" title="">पहिरोका कारण अवरुद्ध पासाङल्हामु राजमार्ग खुलाउन आग्रह</a>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-
-
-      <!-- /Rochak Section -->
 
       </div>
     </div>
   </div>
+
+
+
 </template>
 
 <script>
-export default {};
+  export default {};
+
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+<style lang="scss">
+  .title {
+    font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    display: block;
+    font-weight: 300;
+    font-size: 100px;
+    color: #35495e;
+    letter-spacing: 1px;
+  }
 
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
+  .subtitle {
+    font-weight: 300;
+    font-size: 42px;
+    color: #526488;
+    word-spacing: 5px;
+    padding-bottom: 15px;
+  }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
+  .breakingNews {
+    &-section {
+      margin: 1rem auto;
+    }
 
-.links {
-  padding-top: 15px;
-}
+    &-wrap {
+      text-align: center;
+      background: white;
+      padding: 1rem 10px;
+      margin-bottom: 1rem;
+      padding-bottom: 1px;
+
+      a {
+        &:hover {
+          color: #1688CA
+        }
+      }
+
+      h1 {
+        font-weight: bold;
+        border-bottom: 1px solid lightgrey;
+        padding-bottom: 5px;
+      }
+
+      img {
+        width: auto;
+      }
+
+      p {
+        margin: 1rem auto;
+        font-size: 22px;
+      }
+    }
+  }
+
+  .threeGrid-section {
+    &-card {
+      h4 {
+        background: white;
+        padding: 10px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .grid-title {
+    display: inline-block;
+    border-bottom: 2px solid #1688CA;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .fourGrid-section {
+    background: white;
+    padding: 1rem 0;
+
+    &-card {
+      .card-title {
+        display: block;
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 5px 10px;
+      }
+
+    }
+  }
+
+  .module__title {
+    font-size: 1.4rem;
+    display: block;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+
+    a {
+      position:relative;
+      &:after {
+        position: absolute;
+        content: '';
+        height: 3px;
+        width: 100%;
+        background: #1688CA;
+        bottom: -2px;
+        left: 0;
+      }
+    }
+
+  }
+
+  .module2 {
+
+    .module2-widget {
+      background: white;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .media {
+      flex-direction: column;
+    }
+
+    .media-list__item {
+      margin-bottom: 0;
+    }
+
+    .media__content {
+      position: relative;
+      padding-top: 5px;
+      background: transparent;
+
+      .media__title {
+        font-size: 16px;
+        margin-top: 5px;
+      }
+
+      .media__link {
+        color: #333;
+        font-weight: bold;
+        line-height: 1.4;
+      }
+    }
+  }
+
+
+  .section-ordering p {
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    border-top: 1px solid #eee;
+    padding: 10px 0 10px 15px;
+    margin: 0;
+    display: block;
+
+    &:before {
+      position: absolute;
+      top: 18px;
+      left: 0;
+      content: '';
+      border-radius: 100%;
+      background: #1688CA;
+      height: 5px;
+      width: 5px;
+    }
+
+    a {
+      padding: 5px 0;
+    }
+  }
+
 </style>

@@ -1,11 +1,10 @@
 <template>
-  <div class="container-fluid">
-    <hr />
-    <TopNav />
+  <div class="">
+    <!-- <TopNav /> -->
     <Nav />
-    <hr />
+
     <CardItems />
-    <hr />
+
     <Nuxt />
     <Footer />
   </div>

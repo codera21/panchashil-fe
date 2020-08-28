@@ -1,0 +1,518 @@
+.wcheader{
+  //background: linear-gradient(to right, #cc0000 0%,#f22f21 48%,#cc0000 99%);
+  //display: flex;
+  //align-items:center;
+  //padding:40px 0 20px 0;
+  //height:250px;
+  //background:url(../wc-header.png) no-repeat;
+  //background-size: cover;
+  //background-position: 0 0;
+  border-bottom:8px solid #fff100;
+  //.left{
+  //  width:130px;
+  //  float:left;
+  //}
+  //.right{
+  //  float:right;
+  //  font-size:4rem;
+  //  color:#fff100;
+  //  font-weight: bold;
+  //  transform:translateY(30%);
+  //}
+}
+//@media screen and (max-width: 768px){
+//  .wcheader{
+//    .left{
+//      width:130px;
+//      float:none;
+//      margin:0 auto;
+//    }
+//    .right{
+//      float:none;
+//      font-size:2rem;
+//      font-weight: bold;
+//      text-align:center;
+//    }
+//  }
+//}
+
+
+//groupstage section
+
+
+
+
+
+.wcgroupstage-container {
+  //background-color: #002554;
+  background:url(../wc-background.png);
+  padding: 30px 0;
+  margin-top: 20px;
+
+  .fifa--group__border {
+    position: relative;
+    border: 1px solid #FFF;
+    padding-top: 20px;
+    margin-bottom:30px;
+  }
+  .fifa--group__background {
+    background-color: #345b85;
+    margin: 20px 0px;
+    transition:background 0.1s linear;
+    &:hover{
+      background: #ffffff;
+      .fifa--country__name{
+        color:#345b85;
+      }
+    }
+
+  }
+  .fifa--group__country {
+    width: 80%;
+    padding: 5px 0px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+  }
+  .fifa--country__flag {
+    width: 55px;
+    //height: 50px;
+    overflow: hidden;
+    //border-radius: 50px;
+    display: inline-block;
+  }
+  .fifa--country__name {
+    display: inline-block;
+    margin-left: 10%;
+    color: #fff100;
+    font-weight: 400;
+    font-size: 20px;
+
+  }
+  .fifa--group__name {
+    background-color: #151F5D;
+    position: absolute;
+    top: -20px;
+    transform: translate(-50%);
+    left: 50%;
+    color: #FFF;
+    padding:0 20px;
+    font-size: 25px;
+  }
+}
+
+.wcversus-container{
+  display:flex;
+  align-items:center;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  min-height:80px;
+  //margin-top: 1.5rem;
+  &:not(:last-of-type){
+    border-bottom:1px solid #e5e5e5;
+  }
+  .left{
+    font-size: 16px;
+    width: 25%;
+    flex: 0 0 25%;
+    flex-direction: column;
+    display: flex;
+  }
+  .right{
+    display: flex;
+    width: 75%;
+    flex: 0 0 75%;
+    .rr{
+      flex: 0 0 43%;
+      text-align:right;
+      .top {
+        text-align: right;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        .name {
+          font-size: 20px;
+          display: inline-block;
+          margin-right: 10px;
+        }
+        .flag {
+          width: 64px;
+          float: right;
+        }
+      }
+      .scorername{
+        color:darkgray;
+      }
+    }
+    .rm{
+      flex: 0 0 14%;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      .scoretext{
+        font-size:2rem;
+        color:rgb(0, 135, 230);
+
+      }
+    }
+    .rl{
+      flex: 0 0 43%;
+      text-align: left;
+      .top{
+      display: flex;
+      align-items: center;
+      .name{
+        font-size: 20px;
+        margin-left:10px;
+      }
+      .flag{
+        width:64px;
+        float:left;
+      }
+      }
+      .scorername{
+        color:darkgray;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 769px){
+  .flag{
+    width:35px!important;
+  }
+  .scoretext{
+    font-size:1.2rem;
+  }
+  .name{
+    font-size:20px;
+  }
+}
+
+@media screen and (max-width: 430px){
+  .wcversus-container{
+        flex-direction:column;
+    &:not(:last-of-type){
+      border-bottom:1px solid #e5e5e5;
+    }
+    .left{
+        width:100%;
+        justify-content: center;
+      text-align: center;
+      margin-bottom:5px;
+    }
+    .right{
+        width:100%;
+      .rr{
+        text-align:left;
+        .top {
+            flex-direction:column-reverse;
+          .name {
+            font-size: 20px;
+            margin-right: 0;
+          }
+        }
+      }
+      .rm{
+        flex: 0 0 14%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        .scoretext{
+          font-size:1.2rem;
+        }
+      }
+      .rl{
+       text-align: left;
+        .top{
+          flex-direction:column-reverse;
+          .name{
+            font-size: 20px;
+            margin-left:0;
+          }
+        }
+        .scorername{
+          text-align: right;
+        }
+      }
+    }
+  }
+}
+
+.wc-liveupdate-container{
+  background: url(../wc-background.png);
+  height:100vh;
+}
+
+
+
+.wclive-container{
+  margin-top:1.5rem;
+  .panel-default>.panel-heading {
+    color: white;
+    background-color: #002554;
+    border-color: #002554;
+  }
+  .panel{
+    box-shadow:none;
+  }
+}
+
+.scoreboard-at-top{
+  background:#002554;
+  color:#ffffff;
+  .right{
+    flex:0 0 100%;
+    width:100%;
+  }
+}
+
+#summary-content{
+
+}
+.detailWC{
+  .even{
+    background:#f0f0f0;
+    //padding:1%;
+  }
+  .odd{
+    background:#fff;
+    //padding:1%;
+  }
+  &__header{
+    background: linear-gradient(to bottom, #595959 0%, #353535 100%);
+    color:#ffffff;
+    display:flex;
+    justify-content: space-between;
+    padding:1%;
+    font-size: 1.2rem;
+  }
+  &__headerText{
+
+  }
+  &__headerScore{
+
+  }
+  &__incidentRow{
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 1%;
+    border-bottom: 1px solid #e1e0e1;
+    line-height: 13px;
+  }
+  .incidentRow{
+    &--home{
+      justify-content: flex-start;
+    }
+    &--away{
+      justify-content: flex-end;
+    }
+  }
+}
+
+
+//category-page
+.categorypage-container{
+  background: url(../wc-background.png) no-repeat;
+  background-size:cover ;
+  margin-top:0;
+  .header-title{
+    font-size: 2rem;
+  }
+  .uk-card-body{
+    .uk-card-title{
+      font-size:2.5rem;
+    }
+    p{
+      font-size:1.4rem;
+    }
+  }
+
+
+}
+
+.wcteam-features{
+  background: #B51014;
+  //background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(https://ak8.picdn.net/shutterstock/videos/6737878/thumb/1.jpg) no-repeat;
+  padding:10px;
+  background-size: cover;
+  background-position:center;
+  margin-bottom: 1rem;
+  p{
+    color:#ffffff;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: justify;
+    display: inline-block;
+    margin:0 5px;
+    &:nth-child(1){width:40%}
+    &:nth-child(2){width:60%}
+    @media screen and (max-width:768px){
+      width:100%;
+    }
+  }
+  strong{
+    font-size: 1.5rem;
+    line-height: 35px;
+    //display:inline-block;
+    //width:200px;
+    margin-right: 10px;
+  }
+  .wc-team-inner{
+    display:flex;
+    @media screen and (max-width:768px){
+      flex-direction:column;
+      margin-bottom:1rem;
+    }
+  }
+}
+
+.news-feed-item{
+  background: #ffffff;
+  padding: 0 0 18px 0;
+  position:relative;
+  margin-bottom:5px;
+  figure{
+    margin: 0 0 18px 0;
+    .img-wrap{
+      padding-bottom: 40%;
+      display: block;
+      overflow: hidden;
+      position: relative;
+      img{
+        height: auto;
+        left: 0;
+        top: 0;
+        width: 100%;
+        position: absolute;
+      }
+    }
+  }
+  .text-container{
+    overflow: hidden;
+    padding-left: 18px;
+    padding-right: 22px;
+    float: left;
+    width: 100%;
+    .item-info-wrap {
+      overflow: hidden;
+      //max-width: 600px;
+      .news-feed_item-meta {
+        margin-bottom: 8px;
+        color: #6c6d6f;
+        font-size: 11px;
+        line-height: 100%;
+        .timestamp,.author {
+          color: #a5a6a7;
+          white-space: nowrap;
+        }
+      }
+      h1 {
+        color: #1d1e1f;
+        line-height: 1.1;
+        margin-bottom: 8px;
+        margin-top: 0;
+      }
+       p {
+        width: 100%;
+        display: block;
+        line-height: 18px;
+        padding-right: 10px;
+      }
+    }
+  }
+}
+
+.time-shedule{
+  &-header{
+    background:#ffffff;
+    padding:1rem;
+    width: 100%;
+    border-bottom:1px solid #e5e5e5;
+    display:inline-block;
+  }
+  .wcversus-container{
+    background: #ffffff;
+
+    &:not(:last-of-type){
+      border-bottom:1px solid #e5e5e5;
+    }
+
+    .right{
+      display: flex;
+      width: 100%;
+      flex:none;
+      justify-content: space-around;
+      .rr{
+        flex:none;
+        .top {
+          flex-direction: column-reverse;
+          .name {
+            font-size: 20px;
+            display: inline-block;
+            margin-right: 10px;
+          }
+          .flag {
+            width: 64px;
+            float: right;
+          }
+        }
+        .scorername{
+          color:darkgray;
+        }
+      }
+      .rm{
+        flex:none;
+        flex-direction: column;
+        .scoretext{
+          font-size:1.2rem;
+        }
+      }
+      .rl{
+        flex:none;
+        text-align: left;
+        .top{
+          flex-direction: column-reverse;
+          .name{
+            font-size: 20px;
+            margin-left:10px;
+          }
+          .flag{
+            width:64px;
+            float:left;
+          }
+        }
+        .scorername{
+          color:darkgray;
+        }
+      }
+    }
+  }
+}
+
+
+
+.wc-score-table{
+    background:#ffffff;
+    padding:10px;
+  thead{
+    background:gray;
+    th{
+      color:#ffffff;
+    }
+  }
+  .uk-subnav-pill{
+    justify-content: center;
+    li{
+      padding-left:4px;
+    }
+  }
+}

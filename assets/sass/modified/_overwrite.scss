@@ -1,0 +1,75 @@
+html{
+  font-size: 1rem;
+}
+body{
+  //font-family: 'Noto Sans', sans-serif;
+  font-family: 'Hind', sans-serif;
+  background: #eee;
+}
+
+figure{
+  margin:0;
+}
+
+ul{
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+.navbar-brand{
+  color:$pure-white!important;
+}
+.nav-tabs {
+  a {
+    @extend %capital;
+  }
+}
+a{
+  text-decoration: none !important;
+  color:$pure-black;
+}
+img{
+  height:100%;
+  width:100%;
+}
+.panel{
+  margin-bottom: 0;
+  border:none;
+  box-shadow: 0 3px 5px -5px black;
+}
+//slider overwrite
+.owl-theme .owl-nav {
+  margin-top: 0;
+}
+
+.uk-slideshow-items{
+  height:81vh!important;
+}
+.uk-card-default{
+  padding:0;
+}
+
+//button{
+//  transition:background .2s linear;
+//  &:hover{
+//    background:darken($primary,10%)!important;
+//    color:$pure-white!important;
+//    border-color:darken($primary,10%)!important;
+//  }
+//}
+
+
+h1,h2,h3,h4,h5,h6{
+  ////margin-top:0;
+  //margin-bottom:10px;
+  //color:$lb;
+  //a{
+  //  color:$lb;
+  //}
+}
+
+h4{
+  //margin-top: 0;
+  //font-size: 20px!important;
+}

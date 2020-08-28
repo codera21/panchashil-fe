@@ -1,0 +1,58 @@
+//main-banner
+.frontpage__banner{
+  .trendingads{
+    height:400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    img{
+      height:auto!important;
+    }
+  }
+}
+.article-carousel{
+  .owl-prev,.owl-next{
+    position:absolute;
+    top:50%;
+    color: #333!important;
+    transform:translateY(-50%);
+    font-size:12px;
+    font-weight: 100;
+    background:$pure-white!important;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px -4px rgba(0,0,0,0.5);
+  }
+  .owl-prev{
+    left:-20px;
+  }
+  .owl-next{
+    right:-20px;
+  }
+}
+//offer deals
+
+
+//owl button
+.owl-prev,.owl-next{
+  position:absolute;
+  top:50%;
+  color: $gray!important;
+  background: transparent!important;
+  transform:translateY(-50%);
+  font-size:20px;
+  font-weight: 100;
+}
+.owl-prev{
+  left:5px;
+}
+.owl-next{
+  right:5px;
+}
+.owl-dots{
+  margin-top: 0!important;
+}

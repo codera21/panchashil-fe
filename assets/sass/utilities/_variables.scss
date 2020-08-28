@@ -1,0 +1,75 @@
+.pad--none{
+  padding:0;
+}
+.mar--none{
+  margin:0;
+}
+.liststyle--none{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+%liststyle--none{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+.underline--none{
+  text-decoration:none;
+}
+.btn__rad--none{
+  border-radius: 0;
+  &:focus,&:active,&:hover{
+    outline:none;
+  }
+}
+
+
+//colors for nayapatrika
+$logo-red:#9D0A0E;
+$r:#D71920;
+$b:#2E3191;
+$lb:#3D71B8;
+$pure-black:#000000;
+$tb:lighten($pure-black,40%);
+$bc:#cddff0;
+$pink:#FCE8F1;
+
+$red:#f30002;
+$blue:#242C41;
+$green:#00aa01;
+$yellow:#feff01;
+$primary:#86BC42;
+$accent:#88fc0a;
+$orange:#ff3800;
+$pure-white:#ffffff;
+
+$green:#2ECC71;
+$orange-red:#fffbfb;
+
+$black:#2b2c2c;
+$grey:#f4f4f4;
+
+$link:#247bbd;
+$link-on-hover:#178bcf;
+$active-link:$primary;
+
+$gold:#F7CA18;
+
+//card section
+$gray-darker:               #444444;
+$gray-dark:                 #696969;
+$gray:                      #999999;
+$gray-light:                #cccccc;
+$gray-lighter:              #ececec;
+$gray-lightest:             lighten($gray-lighter,4%);
+
+
+//social medias color code
+$twitter: #00aced;
+$facebook: #3b5998;
+$googleplus: #dd4b39;
+$pinterest: #cb2027;
+$rss:#f26522;
+$instagram:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
