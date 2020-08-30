@@ -2,7 +2,7 @@
   <div class="cat-side-ads">
     <div v-for="item in items" :key="item.id" class="advertisement my-2">
       <figure>
-        <a :href="adLink" :title="title" target="_blank">
+        <a :href="item.lnk" :title="item.title" target="_blank">
           <img :src="item.src" alt />
         </a>
       </figure>
@@ -18,14 +18,14 @@ export default {
       items: [
         {
           id: 0,
-          adLink: "#",
+          lnk: "#",
           title: "ads title 0",
           src: "https://via.placeholder.com/330X90?text=Your Ad Here",
           isGif: false,
         },
         {
           id: 1,
-          adLink: "#",
+          lnk: "#",
           title: "ads title 1",
           src: "https://via.placeholder.com/330X90?text=Your Ad Here",
           isGif: false,
@@ -35,3 +35,9 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.advertisement {
+  margin-bottom: 0.5em;
+}
+</style>
