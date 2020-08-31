@@ -24,9 +24,9 @@
         </div>
 
         <div class="col-md-3">
-          <CategoryNewsMiniCard />
+          <NewsMiniCard />
           <hr />
-          <CategorySideAds />
+          <SideAds />
         </div>
       </div>
     </div>
