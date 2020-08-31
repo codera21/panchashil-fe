@@ -25,6 +25,7 @@
 
         <div class="col-md-3">
           <div class="rightsection">
+
             <div class="title">
               <h5>
                 लोकप्रिय
@@ -34,7 +35,8 @@
           <hr />
           <SideAds />
           </div>
-          
+
+
         </div>
       </div>
     </div>
