@@ -1,11 +1,9 @@
 <template>
   <div class="news-mini-card">
-    <div class="title">
-      <h5>{{miniCardTitle}}</h5>
-    </div>
+    
     <ul>
       <li>
-        <a v-for="item in items" :key="item.id" class="mini-newscard">
+        <a href="" v-for="item in items" :key="item.id" class="mini-newscard">
           <figure>
             <img :src="item.imgSrc" :alt="item.imgAlt" />
           </figure>

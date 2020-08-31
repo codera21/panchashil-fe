@@ -24,9 +24,17 @@
         </div>
 
         <div class="col-md-3">
+          <div class="rightsection">
+            <div class="title">
+              <h5>
+                लोकप्रिय
+              </h5>
+            </div>
           <NewsMiniCard />
           <hr />
           <SideAds />
+          </div>
+          
         </div>
       </div>
     </div>
