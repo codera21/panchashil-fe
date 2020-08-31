@@ -24,9 +24,11 @@
         </div>
 
         <div class="col-md-3">
-          <NewsMiniCard />
-          <hr />
-          <SideAds />
+          <div class="rightsection">
+            <NewsMiniCard />
+            <hr />
+            <SideAds />
+          </div>
         </div>
       </div>
     </div>
