@@ -4,32 +4,17 @@
       <div class="container">
         <div class="footer-logo-social">
           <div class="footer-logo">
-            <a href="" class="logoname">
-              <img
-                src="https://www.panchasilmedia.com/_nuxt/img/logoo.becd54a.png"
-                alt=""
-              />
+            <a href class="logoname">
+              <img src="https://www.panchasilmedia.com/_nuxt/img/logoo.becd54a.png" alt />
             </a>
           </div>
           <div class="footer-social-icons">
             <div class="footer-social-icons-text"></div>
             <div class="link-follow">
-              <a class="twitter fab fa-twitter" title="Twitter" href=""></a>
-              <a
-                class="instagram fab fa-instagram"
-                title="instagram"
-                href=""
-              ></a>
-              <a
-                class="googleplus fab fa-google-plus-g"
-                title="Google"
-                href=""
-              ></a>
-              <a
-                class="facebook fab fa-facebook-f"
-                title="Facebook"
-                href=""
-              ></a>
+              <a class="twitter fab fa-twitter" title="Twitter" href></a>
+              <a class="instagram fab fa-instagram" title="instagram" href></a>
+              <a class="googleplus fab fa-google-plus-g" title="Google" href></a>
+              <a class="facebook fab fa-facebook-f" title="Facebook" href></a>
             </div>
           </div>
         </div>
@@ -37,10 +22,18 @@
           <div class="col-md-3">
             <div class="left-title footer-title">सहयोग चाहियो?</div>
             <ul class="contact-details liststyle--none">
-              <li>स्थान <a href="">महाराजगंज ३ , काठमाडौं</a></li>
-              <li>कल <a href="#">+९७७–१–४४३२०९९</a></li>
-              <li>ईमेल <a href="#">panchasilmedia@gmail.com</a></li>
-              <li>ईमेल <a href="#">panchasilnews@gmail.com</a></li>
+              <li>
+                स्थान
+                <a href>महाराजगंज ३ , काठमाडौं</a>
+              </li>
+              <li>
+                कल
+                <a href="#">+९७७–१–४४३२०९९</a>
+              </li>
+              <li>
+                ईमेल
+                <a href="#">panchasilmedia@gmail.com</a>
+              </li>
             </ul>
           </div>
           <div class="col-md-3">
@@ -68,7 +61,7 @@
               height="100%"
               style="border: none; overflow: hidden"
               frameborder="0"
-              allowTransparency="true"
+              allowtransparency="true"
               allow="encrypted-media"
             ></iframe>
           </div>
@@ -78,7 +71,7 @@
     <div class="bottom-footer">
       <span>
         प्रतिलिपि अधिकार © २०२० सबै अधिकार सुरक्षित। द्वारा विकसित
-        <a href="">Info</a>
+        <a href>Info</a>
       </span>
     </div>
   </footer>
