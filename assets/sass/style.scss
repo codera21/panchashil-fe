@@ -7,11 +7,10 @@
 
 @import "modified/overwrite";
 @import "modified/needstyle";
-@import "modified/owl-style";
+// @import "modified/owl-style";
 //custom variables
 //header
 @import "macro/header";
-// @import "macro/mainheadline";
-// @import "macro/majornews";
-// @import "macro/epaper";
+@import "macro/mainheadline";
+
 

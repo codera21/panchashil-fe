@@ -10,9 +10,8 @@
             class="rounded-circle"
             style="background-color: white"
           />
-
         </nuxt-link>
-        <hr>
+        <hr />
         <span class="date hide-mb">
           <div id="time">
             <span class="time_date">बिहीबार, साउन २२, २०७७ / Thursday, August 6, 2020</span>
@@ -33,9 +32,8 @@
           </a>
         </section>
       </div>
+    </div>
   </div>
-  </div>
-
 </template>
 
 <script>
