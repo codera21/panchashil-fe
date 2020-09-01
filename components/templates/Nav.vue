@@ -214,7 +214,7 @@
     <div class="bottom-header d-none d-md-block">
         <div class="container">
             <nav class="menu-subnav">
-                <span class="subnav--title">Hot topic</span>
+                <span class="subnav--title">ट्रेंडिंग शीर्षक</span>
                 <ul class="liststyle--none">
                     <li><a href="">नेपाली चलचित्र</a></li>
                     <li><a href="">नेपाल प्रहरी</a></li>
