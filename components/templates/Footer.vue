@@ -48,8 +48,8 @@
             <div class="left-title footer-title">हाम्रो समूह</div>
             <ul class="liststyle--none footer-our-team">
               <li>
-                <h5>संचालक/सम्पादक</h5>
-                <span>ऋग देवकोटा</span>
+                <h5>Managing Director/Editor</h5>
+                <span class="font-weight-bold">ऋग देवकोटा</span>
                 <p>९८५११५०१८१</p>
               </li>
             </ul>
@@ -94,8 +94,9 @@ export default {
 <style scoped lang="scss">
 .footer {
   .top-footer {
-    background-color: #22282e;
-    color: #898d90;
+    // background-color: #22282e;
+    // color: #898d90;
+    background:#F5DEB4;
     padding-bottom: 2rem;
   }
   .footer-logo-social {
@@ -154,7 +155,7 @@ export default {
     text-transform: capitalize;
     letter-spacing: 1px;
     margin-bottom: 1.4rem;
-    color: white;
+    color: black;
     @media screen and (max-width: 1092px) {
       margin-top: 1.4rem;
       margin-bottom: 5px;
@@ -170,10 +171,10 @@ export default {
   ul {
     line-height: 24px;
     li {
-      font-size: 12px;
+      font-size: 15px;
     }
     a {
-      color: #d8d9d9;
+      color: black;
       transition: color 0.1s linear;
       font-size: 14px;
       &:hover {
@@ -183,21 +184,21 @@ export default {
   }
   p,
   b {
-    color: #898d90;
+    // color: #898d90;
   }
   .bottom-footer {
-    background: #14181c;
+    background: darken(#F5DEB4,5%);
     text-align: center;
     font-size: 12px;
     padding: 1% 0;
-    color: white;
+    color: black;
     a {
       color: #1688ca;
     }
   }
   .footer-our-team {
     h5 {
-      color: white;
+      color: black;
     }
   }
 }
