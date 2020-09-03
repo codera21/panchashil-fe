@@ -40,10 +40,8 @@
           </div>
           <div class="col-md-9">
             <a href="">
-              <img
-                src="http://bg.annapurnapost.com/uploads/media/1000x90_20180521043922.gif"
-                alt
-              />
+              <img width="1536" height="213" src="https://via.placeholder.com/1536X213.png?text=Your Ads here"
+                class="image wp-image-2734 attachment-full size-full lazy" style="max-width: 100%; height: auto;" />
             </a>
           </div>
         </div>
