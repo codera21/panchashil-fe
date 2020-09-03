@@ -133,7 +133,7 @@ export default {
     font-size: 1.4rem;
     margin: 0 20px 5px 0;
     display: inline-block;
-    color: #898d90;
+    color: #e6f0f8;
     transition: color 0.1s linear;
     &.twitter:hover {
       color: #55acee;
