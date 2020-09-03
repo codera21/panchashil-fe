@@ -20,37 +20,36 @@
         </div>
         <div class="row">
           <div class="col-md-3">
-            <div class="left-title footer-title">सहयोग चाहियो?</div>
+            <div class="left-title footer-title">Help</div>
             <ul class="contact-details liststyle--none">
               <li>
-                स्थान
-                <a href>महाराजगंज ३ , काठमाडौं</a>
+                Location
+                <a href>Maharajganj 3, Kathmandu</a>
               </li>
               <li>
-                कल
-                <a href="#">+९७७–१–४४३२०९९</a>
+                Call us 
+                <a href="#">977-1-4432099</a>
               </li>
               <li>
-                ईमेल
+                Email
                 <a href="#">panchasilmedia@gmail.com</a>
               </li>
             </ul>
           </div>
           <div class="col-md-3">
-            <div class="left-title footer-title">हामी को हौं?</div>
+            <div class="left-title footer-title">Who are we?</div>
             <p>
-              Panchasil Media Pvt। लिमिटेड समाचार र सूचनाका लागि नेपाल सरकारको
-              कम्पनी ऐन अन्तर्गत दर्ता गरिएको कम्पनी हो।
+              Panchasil Media Pvt Ltd. is a registered company under the company act of Nepal Government for news and information.
             </p>
           </div>
 
           <div class="col-md-3">
-            <div class="left-title footer-title">हाम्रो समूह</div>
+            <div class="left-title footer-title">Team</div>
             <ul class="liststyle--none footer-our-team">
               <li>
                 <h5>Managing Director/Editor</h5>
-                <span class="font-weight-bold">ऋग देवकोटा</span>
-                <p>९८५११५०१८१</p>
+                <span class="font-weight-bold">Rig Devkota</span>
+                <p>9851150181</p>
               </li>
             </ul>
           </div>
@@ -70,7 +69,7 @@
     </div>
     <div class="bottom-footer">
       <span>
-        प्रतिलिपि अधिकार © २०२० सबै अधिकार सुरक्षित। द्वारा विकसित
+       Copyright © 2018 All Rights Reserved. Developed by
         <a href>Info</a>
       </span>
     </div>
