@@ -40,6 +40,9 @@
               <li>
                 Email
                 <a href="#">panchasilnews@gmail.com</a>
+              </li> <li>
+                Email
+                <a href="#"> panchasilmedia@gmail.com</a>
               </li>
             </ul>
           </div>
