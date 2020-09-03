@@ -4,16 +4,23 @@
       <div class="container">
         <div class="footer-logo-social">
           <div class="footer-logo">
-            <a href class="logoname">
-              <img src="https://www.panchasilmedia.com/_nuxt/img/logoo.becd54a.png" alt />
-            </a>
+            <nuxt-link to="/" class="logoname">
+              <img
+                src="https://www.panchasilmedia.com/_nuxt/img/logoo.becd54a.png"
+                alt
+              />
+            </nuxt-link>
           </div>
           <div class="footer-social-icons">
             <div class="footer-social-icons-text"></div>
             <div class="link-follow">
               <a class="twitter fab fa-twitter" title="Twitter" href></a>
               <a class="instagram fab fa-instagram" title="instagram" href></a>
-              <a class="googleplus fab fa-google-plus-g" title="Google" href></a>
+              <a
+                class="googleplus fab fa-google-plus-g"
+                title="Google"
+                href
+              ></a>
               <a class="facebook fab fa-facebook-f" title="Facebook" href></a>
             </div>
           </div>
@@ -27,19 +34,24 @@
                 <a href>Maharajganj 3, Kathmandu</a>
               </li>
               <li>
-                Call us 
+                Call us
                 <a href="#">977-1-4432099</a>
               </li>
               <li>
                 Email
-                <a href="#">panchasilmedia@gmail.com</a>
+                <a href="#">panchasilnews@gmail.com</a>
               </li>
             </ul>
           </div>
           <div class="col-md-3">
             <div class="left-title footer-title">Who are we?</div>
             <p>
-              Panchasil Media Pvt Ltd. is a registered company under the company act of Nepal Government for news and information.
+              Panchasilmedia.com is a Nepali language news portal operated by
+              Panchasil Media Pvt Ltd Since 2020AD. This portal focus on national
+              political, social and economic issues, posts breaking news,
+              investigative reports as well as content related to education,
+              science and technology, cultural activities, lifestyle, health,
+              sports, entertainment international news and literature.
             </p>
           </div>
 
@@ -50,6 +62,11 @@
                 <h5>Managing Director/Editor</h5>
                 <span class="font-weight-bold">Hrig Devkota</span>
                 <p>9851150181</p>
+              </li>
+              <li>
+                <h5>Department of information and Boardcasting</h5>
+                <span class="font-weight-bold">Regd Number</span>
+                <p></p>
               </li>
             </ul>
           </div>
@@ -69,7 +86,7 @@
     </div>
     <div class="bottom-footer">
       <span>
-       Copyright © 2018 All Rights Reserved. Developed by
+        Copyright © 2018 All Rights Reserved. Developed by
         <a href>Info</a>
       </span>
     </div>
@@ -95,7 +112,7 @@ export default {
   .top-footer {
     // background-color: #22282e;
     // color: #898d90;
-    background:#F5DEB4;
+    background: #f5deb4;
     padding-bottom: 2rem;
   }
   .footer-logo-social {
@@ -186,7 +203,7 @@ export default {
     // color: #898d90;
   }
   .bottom-footer {
-    background: darken(#F5DEB4,5%);
+    background: darken(#f5deb4, 5%);
     text-align: center;
     font-size: 12px;
     padding: 1% 0;

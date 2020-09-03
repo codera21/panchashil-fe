@@ -5,7 +5,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">{{ item.title }}</h5>
-            <a href="#" class="btn btn-primary theme-button w-100">{{ item.btnTxt}}</a>
+            <nuxt-link to="/single-page" class="btn btn-primary theme-button w-100">{{ item.btnTxt}}</nuxt-link>
           </div>
         </div>
       </div>

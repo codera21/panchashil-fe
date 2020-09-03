@@ -199,7 +199,7 @@
             <div class="module2-widget box-shadow">
               <div class="module2-widget-wrapper ">
                 <h2 class="module__title">
-                  <a href="">समाज</a>
+                  <nuxt-link to="/category-page">समाज</nuxt-link>
                 </h2>
                 <div class="data-holder">
                   <div class="section-ordering">
@@ -214,7 +214,7 @@
                         </div>
                         <div class="media__content">
                           <h3 class="media__title">
-                            <a class="media__link" href="">गोसाइँकुण्डमा भक्तजनको भीड</a>
+                            <nuxt-link class="media__link" to="/single-page">गोसाइँकुण्डमा भक्तजनको भीड</nuxt-link>
                           </h3>
                         </div>
                       </div>
@@ -222,13 +222,13 @@
                     <div class="clearfix"></div>
                     <p 
                       class="">
-                      <a href="" title="">भड्किलो तीज : हुनेखाने र हुँदा खानेबीचको दूरी बढाउँदै</a>
+                      <nuxt-link to="/category-page" title="">भड्किलो तीज : हुनेखाने र हुँदा खानेबीचको दूरी बढाउँदै</nuxt-link>
                     </p>
                     <p  class="">
-                      <a href="" title="">छुट्टाछुटै घटनामा दुई जनाको मृत्यु</a>
+                      <nuxt-link to="/category-page" title="">छुट्टाछुटै घटनामा दुई जनाको मृत्यु</nuxt-link>
                     </p>
                     <p  class="">
-                      <a href="" title="">पहिरोका कारण अवरुद्ध पासाङल्हामु राजमार्ग खुलाउन आग्रह</a>
+                      <nuxt-link to="/category-page" title="">पहिरोका कारण अवरुद्ध पासाङल्हामु राजमार्ग खुलाउन आग्रह</nuxt-link>
                     </p>
                   </div>
                 </div>
@@ -251,23 +251,7 @@
 </script>
 
 <style lang="scss">
-  // .title {
-  //   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-  //     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  //   display: block;
-  //   font-weight: 300;
-  //   font-size: 100px;
-  //   color: #35495e;
-  //   letter-spacing: 1px;
-  // }
 
-  // .subtitle {
-  //   font-weight: 300;
-  //   font-size: 42px;
-  //   color: #526488;
-  //   word-spacing: 5px;
-  //   padding-bottom: 15px;
-  // }
 
   .breakingNews {
     &-section {
