@@ -48,7 +48,7 @@
             <ul class="liststyle--none footer-our-team">
               <li>
                 <h5>Managing Director/Editor</h5>
-                <span class="font-weight-bold">Rig Devkota</span>
+                <span class="font-weight-bold">Hrig Devkota</span>
                 <p>9851150181</p>
               </li>
             </ul>
