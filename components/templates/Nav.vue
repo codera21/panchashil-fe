@@ -7,10 +7,7 @@
             <div class="top-header--inner">
               <figure class="logo-img top-header--left">
                 <nuxt-link to="/">
-                  <img
-                    src="https://www.panchasilmedia.com/_nuxt/img/logoo.becd54a.png"
-                    alt
-                  />
+                  <img src="https://www.panchasilmedia.com/_nuxt/img/logoo.becd54a.png" alt />
                 </nuxt-link>
               </figure>
               <section class="top-header--right">
@@ -32,16 +29,20 @@
                         monthNames[now.getMonth()] + ", " + now.getFullYear());
                         
                   </SCRIPT>-->
-
                   बुधबार, भाद्र ६, २०७५
                 </div>
               </section>
             </div>
           </div>
           <div class="col-md-9">
-            <a href="">
-              <img width="1536" height="213" src="https://via.placeholder.com/1536X213.png?text=Your Ads here"
-                class="image wp-image-2734 attachment-full size-full lazy" style="max-width: 100%; height: auto;" />
+            <a href>
+              <img
+                width="1536"
+                height="213"
+                src="https://via.placeholder.com/1536X213.png?text=Your Ads here"
+                class="image wp-image-2734 attachment-full size-full lazy"
+                style="max-width: 100%; height: auto;"
+              />
             </a>
           </div>
         </div>
@@ -52,11 +53,8 @@
         <nav class="desktop-nav greedy d-none d-lg-block">
           <ul class="liststyle--none links">
             <li v-for="(link,index) in navlinks" :key="index">
-              <nuxt-link to="/category-page">
-                  {{link.name}}
-              </nuxt-link>
+              <nuxt-link to="/category-page">{{link.name}}</nuxt-link>
             </li>
-            
           </ul>
         </nav>
         <div
@@ -74,10 +72,10 @@
     </div>
     <div id="nav-expand" class="nav-flyout">
       <div id="nav-expand-menu" class="container nav-flyout__container">
-        <div class="nav-flyout__menu-item">
-          <a href class="nav-flyout__section-title">मुख्य पृष्ठ</a>
+        <div v-for="(link,index) in navLinks" :key="index" class="nav-flyout__menu-item">
+          <a href class="nav-flyout__section-title">{{link.name}}</a>
         </div>
-        <div class="nav-flyout__menu-item">
+        <!-- <div class="nav-flyout__menu-item">
           <a href class="nav-flyout__section-title">समाचार</a>
         </div>
         <div class="nav-flyout__menu-item">
@@ -85,29 +83,6 @@
         </div>
         <div class="nav-flyout__menu-item">
           <a href class="nav-flyout__section-title">अर्थ</a>
-          <ul class="liststyle--none nav-flyout__submenu">
-            <li class="nav-flyout__submenu-item">
-              <a href class="nav-flyout__submenu-link">nepal</a>
-            </li>
-            <li class="nav-flyout__submenu-item">
-              <a href class="nav-flyout__submenu-link">nepal</a>
-            </li>
-            <li class="nav-flyout__submenu-item">
-              <a href class="nav-flyout__submenu-link">nepal</a>
-            </li>
-            <li class="nav-flyout__submenu-item">
-              <a href class="nav-flyout__submenu-link">nepal</a>
-            </li>
-            <li class="nav-flyout__submenu-item">
-              <a href class="nav-flyout__submenu-link">nepal</a>
-            </li>
-            <li class="nav-flyout__submenu-item">
-              <a href class="nav-flyout__submenu-link">nepal</a>
-            </li>
-            <li class="nav-flyout__submenu-item">
-              <a href class="nav-flyout__submenu-link">nepal</a>
-            </li>
-          </ul>
         </div>
         <div class="nav-flyout__menu-item">
           <a href class="nav-flyout__section-title">खेलकुद</a>
@@ -117,7 +92,7 @@
         </div>
         <div class="nav-flyout__menu-item">
           <a href class="nav-flyout__section-title">मनोरञ्जन</a>
-        </div>
+        </div>-->
       </div>
       <div class="nav-flyout-footer">
         <div class="nav-flyout-footer__social"></div>
@@ -129,12 +104,11 @@
       <div>
         <ul class="main-list">
           <li v-for="(link,index) in navlinks" :key="index" class="main-list-item">
-              <nuxt-link to="/category-page">
-                  <span>{{link.name}}</span>
-              </nuxt-link>
-            </li>
+            <nuxt-link to="/category-page">
+              <span>{{link.name}}</span>
+            </nuxt-link>
+          </li>
         </ul>
-      
       </div>
     </div>
   </header>
@@ -147,17 +121,18 @@ export default {
     return {
       isActive: false,
       navlinks: [
-        {name: "मुख्य पृष्ठ"},
-        {name: "समाचार"},
-        {name: "फोटो फिचर"},
-        {name: "अर्थ"},
-        {name: "खेलकुद"},
-        {name: "पत्रपत्रिका"},
-        {name: "विश्व"},
-        {name: "मनोरञ्जन"},
-        {name: "भिडियो"},
-        {name: "फोटो फिचर"},
-        {name: "अर्थ"}],
+        { name: "मुख्य पृष्ठ", link: "#" },
+        { name: "समाचार", link: "#" },
+        { name: "फोटो फिचर", link: "#" },
+        { name: "अर्थ", link: "#" },
+        { name: "खेलकुद", link: "#" },
+        { name: "पत्रपत्रिका", link: "#" },
+        { name: "विश्व", link: "#" },
+        { name: "मनोरञ्जन", link: "#" },
+        { name: "भिडियो", link: "#" },
+        { name: "फोटो फिचर", link: "#" },
+        { name: "अर्थ", link: "#" },
+      ],
     };
   },
   methods: {
