@@ -81,7 +81,14 @@
     </div>
 
     <div class="row module2">
-      <ImageCategory class="col-md-4 col-sm-4 mx-1" cat-title="समाज" />
+      <ImageCategory
+        v-for="cat in bottomCategories"
+        :key="cat.id"
+        class="col-md-4 col-sm-4 mx-1"
+        :cat-title="cat.catTitle"
+        :cat-image="cat.catImage"
+        :news="cat.news"
+      />
     </div>
   </div>
 </template>
@@ -99,6 +106,22 @@ export default {
         imgSrc:
           "https://via.placeholder.com/1536X213.png?text=Your Ads here -- in home page",
       },
+
+      bottomCategories: [
+        {
+          id: 0,
+          catTitle: "समाज",
+          catImage:
+            "https://via.placeholder.com/400X255.png?text=Relevant+Image",
+          news: [
+            {
+              id: 0,
+              title: "भड्किलो तीज : हुनेखाने र हुँदा खानेबीचको दूरी बढाउँदै",
+              link: "#",
+            },
+          ],
+        },
+      ],
     };
   },
 };
