@@ -1,22 +1,29 @@
 <template>
-  <div class="module2-widget box-shadow">
+  <div class="module2-widget box-shadow px-3">
     <div class="module2-widget-wrapper">
       <h2 class="module__title">
-        <nuxt-link to="/category-page">{{catTitle}}</nuxt-link>
+        <nuxt-link :to="`/categories/${category.id}`">{{
+          category.name
+        }}</nuxt-link>
       </h2>
       <div class="data-holder">
         <div class="section-ordering">
           <div class="media-list__item">
             <div class="media">
               <div class="media__image">
-                <img :src="catImage" class alt />
+                <img :src="category.image" class alt />
               </div>
               <div class="media__content"></div>
             </div>
           </div>
           <div class="clearfix"></div>
-          <p v-for="i in news" :key="i.id" class>
-            <nuxt-link :to="i.link" :title="i.title">{{i.title}}</nuxt-link>
+          <!-- {{ news }} -->
+          <p v-for="i in news" :key="i.id" class="title">
+            <nuxt-link :to="`/news/${i.id}`">
+              {{
+                i.title.length > 50 ? i.title.substr(0, 50) + "..." : i.title
+              }}
+            </nuxt-link>
           </p>
         </div>
       </div>
@@ -27,9 +34,17 @@
 <script>
 export default {
   name: "ImageCategory",
-  props: ["catTitle", "catImage", "news"],
+  props: ["category", "news"],
 };
 </script>
 
 <style lang="scss">
+.title {
+  height: 60px;
+  overflow: hidden;
+}
+
+.module2-widget {
+  height: 100%;
+}
 </style>

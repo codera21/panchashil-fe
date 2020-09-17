@@ -30,18 +30,19 @@
             <div class="left-title footer-title">Help</div>
             <ul class="contact-details liststyle--none">
               <li>
-                Location
+                <strong>Location:</strong>
                 <a href>Maharajganj 3, Kathmandu</a>
               </li>
               <li>
-                Call us
+                <strong>Call us:</strong>
                 <a href="#">977-1-4432099</a>
               </li>
               <li>
-                Email
+                <strong>Email:</strong>
                 <a href="#">panchasilnews@gmail.com</a>
-              </li> <li>
-                Email
+              </li>
+              <li>
+                <strong>Email:</strong>
                 <a href="#"> panchasilmedia@gmail.com</a>
               </li>
             </ul>
@@ -50,11 +51,11 @@
             <div class="left-title footer-title">Who are we?</div>
             <p>
               Panchasilmedia.com is a Nepali language news portal operated by
-              Panchasil Media Pvt Ltd Since 2020AD. This portal focus on national
-              political, social and economic issues, posts breaking news,
-              investigative reports as well as content related to education,
-              science and technology, cultural activities, lifestyle, health,
-              sports, entertainment international news and literature.
+              Panchasil Media Pvt Ltd Since 2020AD. This portal focus on
+              national political, social and economic issues, posts breaking
+              news, investigative reports as well as content related to
+              education, science and technology, cultural activities, lifestyle,
+              health, sports, entertainment international news and literature.
             </p>
           </div>
 
@@ -113,9 +114,10 @@ export default {
 <style scoped lang="scss">
 .footer {
   .top-footer {
-    // background-color: #22282e;
+    background-color: #22282e;
+    color: #fff;
     // color: #898d90;
-    background: #f5deb4;
+    // background: #f5deb4;
     padding-bottom: 2rem;
   }
   .footer-logo-social {
@@ -153,7 +155,7 @@ export default {
     font-size: 1.4rem;
     margin: 0 20px 5px 0;
     display: inline-block;
-    color: black;
+    color: white;
     transition: color 0.1s linear;
     &.twitter:hover {
       color: #55acee;
@@ -174,7 +176,7 @@ export default {
     text-transform: capitalize;
     letter-spacing: 1px;
     margin-bottom: 1.4rem;
-    color: black;
+    color: white;
     @media screen and (max-width: 1092px) {
       margin-top: 1.4rem;
       margin-bottom: 5px;
@@ -184,7 +186,7 @@ export default {
     li {
       font-size: 15px;
       line-height: 32px;
-      color: #757575;
+      color: #fff;
     }
   }
   ul {
@@ -193,7 +195,7 @@ export default {
       font-size: 15px;
     }
     a {
-      color: black;
+      color: white;
       transition: color 0.1s linear;
       font-size: 14px;
       &:hover {
@@ -206,18 +208,20 @@ export default {
     // color: #898d90;
   }
   .bottom-footer {
-    background: darken(#f5deb4, 5%);
+    // background: darken(#f5deb4, 5%);
+    // background: darken(#f5deb4, 5%);
+    background-color: #22282e;
     text-align: center;
     font-size: 12px;
     padding: 1% 0;
-    color: black;
+    color: white;
     a {
       color: #1688ca;
     }
   }
   .footer-our-team {
     h5 {
-      color: black;
+      color: white;
     }
   }
 }

@@ -1,13 +1,17 @@
 <template>
   <section class="threeGrid-section">
     <div class="row">
-      <div v-for="item in items" :key="item.id" class="col-md-4 mb-3">
-        <div class="fourGrid-section-card box-shadow">
-          <nuxt-link :to="{path: item.link }">
-            <img :src="item.src" alt class="img-fluid" />
+      <div v-for="item in news" :key="item.id" class="col-md-4 mb-3">
+        <div class="fourGrid-section-card box-shadow h-100">
+          <nuxt-link :to="`/news/${item.id}`">
+            <img :src="item.image" alt class="img-fluid" />
           </nuxt-link>
-          <nuxt-link :to="{path: item.link }">
-            <span class="card-title">{{item.title}}</span>
+          <nuxt-link :to="`/news/${item.id}`">
+            <span class="card-title">{{
+              item.title.length > 70
+                ? item.title.substr(0, 70) + "..."
+                : item.title
+            }}</span>
           </nuxt-link>
         </div>
       </div>
@@ -18,6 +22,7 @@
 <script>
 export default {
   name: "NewsCardSectionOne",
+  props: ["news"],
   data() {
     return {
       items: [
@@ -49,5 +54,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-</style>
+<style lang="scss"></style>
