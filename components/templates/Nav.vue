@@ -7,7 +7,10 @@
             <div class="top-header--inner">
               <figure class="logo-img top-header--left">
                 <nuxt-link to="/">
-                  <img src="https://www.panchasilmedia.com/_nuxt/img/logoo.becd54a.png" alt />
+                  <img
+                    src="https://www.panchasilmedia.com/_nuxt/img/logoo.becd54a.png"
+                    alt
+                  />
                 </nuxt-link>
               </figure>
               <section class="top-header--right">
@@ -34,9 +37,7 @@
               </section>
             </div>
           </div>
-          <div class="col-md-9">
-            
-          </div>
+          <div class="col-md-9"></div>
         </div>
       </div>
     </div>
@@ -44,8 +45,10 @@
       <div class="container position-relative">
         <nav class="desktop-nav greedy d-none d-lg-block">
           <ul class="liststyle--none links">
-            <li v-for="(link,index) in navlinks" :key="index">
-              <nuxt-link to="/category-page">{{link.name}}</nuxt-link>
+            <li v-for="(link, index) in navLinks" :key="`apple${index}`">
+              <nuxt-link :to="`/categories/${link.id}`">{{
+                link.name
+              }}</nuxt-link>
             </li>
           </ul>
         </nav>
@@ -64,8 +67,12 @@
     </div>
     <div id="nav-expand" class="nav-flyout">
       <div id="nav-expand-menu" class="container nav-flyout__container">
-        <div v-for="(link,index) in navLinks" :key="index" class="nav-flyout__menu-item">
-          <a href class="nav-flyout__section-title">{{link.name}}</a>
+        <div
+          v-for="(link, index) in navLinks"
+          :key="index"
+          class="nav-flyout__menu-item"
+        >
+          <a href class="nav-flyout__section-title">{{ link.name }}</a>
         </div>
         <!-- <div class="nav-flyout__menu-item">
           <a href class="nav-flyout__section-title">समाचार</a>
@@ -95,9 +102,13 @@
       <div class="overlay" @click.prevent="hamopen"></div>
       <div>
         <ul class="main-list">
-          <li v-for="(link,index) in navlinks" :key="index" class="main-list-item">
+          <li
+            v-for="(link, index) in navLinks"
+            :key="index"
+            class="main-list-item"
+          >
             <nuxt-link to="/category-page">
-              <span>{{link.name}}</span>
+              <span>{{ link.name }}</span>
             </nuxt-link>
           </li>
         </ul>
@@ -108,11 +119,10 @@
 
 <script>
 export default {
-  name: "nav",
   data() {
     return {
       isActive: false,
-      navlinks: [
+      navLinks: [
         { name: "मुख्य पृष्ठ", link: "#" },
         { name: "समाचार", link: "#" },
         { name: "फोटो फिचर", link: "#" },
@@ -127,6 +137,15 @@ export default {
       ],
     };
   },
+
+  created() {
+    this.$axios
+      .get("https://api.panchasilmedia.com/api/admin/news-category")
+      .then(({ data }) => {
+        this.navLinks = data.data.slice(0, 10);
+      });
+  },
+
   methods: {
     hamopen() {
       this.isActive = !this.isActive;

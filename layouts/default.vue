@@ -7,7 +7,6 @@
   </div>
 </template>
 
-
 <script>
 import Footer from "../components/templates/Footer";
 import Nav from "../components/templates/Nav";
