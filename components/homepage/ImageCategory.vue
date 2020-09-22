@@ -10,8 +10,13 @@
         <div class="section-ordering">
           <div class="media-list__item">
             <div class="media">
-              <div class="media__image">
-                <img :src="category.image" class alt />
+              <div class="media__image w-100 h-100">
+                <!-- <img :src="news[0].image" class alt /> -->
+                <div
+                  :style="`background-image:url(${news[0].image})`"
+                  class="img"
+                  alt
+                />
               </div>
               <div class="media__content"></div>
             </div>
@@ -46,5 +51,11 @@ export default {
 
 .module2-widget {
   height: 100%;
+}
+
+.img {
+  height: 198px !important;
+  background-position: center;
+  background-size: cover;
 }
 </style>

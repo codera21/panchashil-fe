@@ -9,7 +9,12 @@
         <div v-for="item in news" :key="item.id" class="col-md-3 mb-3">
           <div class="fourGrid-section-card box-shadow h-100">
             <nuxt-link :to="`/news/${item.id}`">
-              <img :src="item.image" :alt="item.title" class="img-fluid" />
+              <!-- <img :src="item.image" :alt="item.title" class="img-fluid" /> -->
+              <div
+                class="img"
+                :alt="item.title"
+                :style="`background-image: url(${item.image})`"
+              />
             </nuxt-link>
             <nuxt-link :to="`/news/${item.id}`">
               <span class="card-title">{{
@@ -67,4 +72,10 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.img {
+  height: 198px !important;
+  background-position: center;
+  background-size: cover;
+}
+</style>

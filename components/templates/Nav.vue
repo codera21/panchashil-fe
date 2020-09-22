@@ -32,7 +32,19 @@
                         monthNames[now.getMonth()] + ", " + now.getFullYear());
                         
                   </SCRIPT>-->
-                  बुधबार, भाद्र ६, २०७५
+                  <!-- बुधबार, भाद्र ६, २०७५ -->
+                  <iframe
+                    scrolling="no"
+                    border="0"
+                    frameborder="0"
+                    marginwidth="0"
+                    marginheight="0"
+                    allowtransparency="true"
+                    src="https://www.ashesh.com.np/linknepali-time.php?dwn=only&font_color=333333&font_size=14&bikram_sambat=0&api=222199k398"
+                    width="165"
+                    height="22"
+                    style="padding-top: 6px"
+                  ></iframe>
                 </div>
               </section>
             </div>
@@ -140,9 +152,9 @@ export default {
 
   created() {
     this.$axios
-      .get("https://api.panchasilmedia.com/api/admin/news-category")
+      .get("https://api.panchasilmedia.com/api/admin/news-category?limit=12")
       .then(({ data }) => {
-        this.navLinks = data.data.slice(0, 10);
+        this.navLinks = data.data.slice(0, 12);
       });
   },
 
