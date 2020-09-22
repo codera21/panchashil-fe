@@ -11,7 +11,13 @@
               <div v-for="news in latest_news" :key="news.id" class="col-md-4">
                 <div class="threeGrid-section-card newsCard">
                   <nuxt-link :to="`/news/${news.id}`">
-                    <img :src="news.image" alt class="img-fluid" />
+                    <!-- <img :src="news.image" alt class="img-fluid" /> -->
+                    <!-- <img :src="news.image" alt class="img-fluid" /> -->
+                    <div
+                      class="img"
+                      :alt="news.title"
+                      :style="`background-image: url(${news.image})`"
+                    />
                   </nuxt-link>
                   <h4>
                     <nuxt-link :to="`/news/${news.id}`">
@@ -100,4 +106,10 @@ export default {
 };
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.img {
+  height: 198px !important;
+  background-position: center;
+  background-size: cover;
+}
+</style>
