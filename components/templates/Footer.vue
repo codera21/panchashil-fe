@@ -6,7 +6,7 @@
           <div class="footer-logo">
             <nuxt-link to="/" class="logoname">
               <img
-                src="https://www.panchasilmedia.com/_nuxt/img/logoo.becd54a.png"
+                src="https://user-images.githubusercontent.com/17085948/94036836-72e1e880-fde4-11ea-9d75-f5a2ea6e01f6.jpg"
                 alt
               />
             </nuxt-link>
@@ -203,10 +203,7 @@ export default {
       }
     }
   }
-  p,
-  b {
-    // color: #898d90;
-  }
+
   .bottom-footer {
     // background: darken(#f5deb4, 5%);
     // background: darken(#f5deb4, 5%);

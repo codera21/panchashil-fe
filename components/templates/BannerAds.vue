@@ -6,7 +6,7 @@
         :height="adObj.height"
         :src="adObj.imgSrc"
         class="image wp-image-2734 attachment-full size-full lazy"
-        style="max-width: 100%; height: auto;"
+        style="max-width: 100%; height: auto; display: none"
       />
     </section>
   </div>

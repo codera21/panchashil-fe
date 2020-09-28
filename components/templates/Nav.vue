@@ -8,7 +8,7 @@
               <figure class="logo-img top-header--left">
                 <nuxt-link to="/">
                   <img
-                    src="https://www.panchasilmedia.com/_nuxt/img/logoo.becd54a.png"
+                    src="https://user-images.githubusercontent.com/17085948/94036836-72e1e880-fde4-11ea-9d75-f5a2ea6e01f6.jpg"
                     alt
                   />
                 </nuxt-link>
@@ -134,19 +134,7 @@ export default {
   data() {
     return {
       isActive: false,
-      navLinks: [
-        { name: "मुख्य पृष्ठ", link: "#" },
-        { name: "समाचार", link: "#" },
-        { name: "फोटो फिचर", link: "#" },
-        { name: "अर्थ", link: "#" },
-        { name: "खेलकुद", link: "#" },
-        { name: "पत्रपत्रिका", link: "#" },
-        { name: "विश्व", link: "#" },
-        { name: "मनोरञ्जन", link: "#" },
-        { name: "भिडियो", link: "#" },
-        { name: "फोटो फिचर", link: "#" },
-        { name: "अर्थ", link: "#" },
-      ],
+      navLinks: [],
     };
   },
 

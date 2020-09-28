@@ -18,13 +18,13 @@
         </nuxt-link>
       </div>
     </section>
-    <hr />
+
     <!--  //- main section -->
 
     <div class="row col-12">
       <BannerAds :ad-obj="topBannerAd" />
     </div>
-    <hr />
+
     <NewsCardSectionOne :news="related_news" />
     <hr />
     <NewsCardSectionTwo :news="latest_news" />
@@ -93,9 +93,7 @@ export default {
         "https://api.panchasilmedia.com/api/admin/news/breaking_news/type/all/category"
       )
       .then(({ data }) => {
-        this.breaking_news = data.slice(0, 3);
-        // this.related_news = data.slice(0, 3);
-        // this.latest_news = data.slice(0, 4);
+        this.breaking_news = data.slice(Math.max(data.length - 4, 0));
       });
 
     this.$axios
@@ -103,9 +101,7 @@ export default {
         "https://api.panchasilmedia.com/api/admin/news/default/type/all/category"
       )
       .then(({ data }) => {
-        // this.breaking_news = data.slice(0, 3);
-        // this.related_news = data.slice(0, 3);
-        this.latest_news = data.slice(0, 4);
+        this.latest_news = data.slice(Math.max(data.length - 4, 0));
       });
 
     this.$axios
@@ -113,9 +109,7 @@ export default {
         "https://api.panchasilmedia.com/api/admin/news/related/type/all/category"
       )
       .then(({ data }) => {
-        // this.breaking_news = data.slice(0, 3);
-        this.related_news = data.slice(0, 3);
-        // this.latest_news = data.slice(0, 4);
+        this.related_news = data.slice(Math.max(data.length - 3, 0));
       });
   },
 

@@ -1,31 +1,14 @@
 <template>
   <section class="singlepage-container">
     <div class="container">
-      <div class="advertisement">
-        <figure>
-          <a href>
-            <img
-              class="my-2"
-              src="http://bg.annapurnapost.com/uploads/media/ap_1000PX-x-90px_20180902164807.gif"
-              alt
-            />
-          </a>
-        </figure>
+      <div class="row col-12">
+        <BannerAds :ad-obj="topBannerAd" />
       </div>
-      <div class="advertisement">
-        <figure>
-          <a
-            href="https://www.facebook.com/SomersbyNepal/?fref=ts"
-            title="Tuborg  inside"
-            target="_blank"
-          >
-            <img
-              src="http://bg.annapurnapost.com/uploads/media/Tuborg-Inside_20180617072141.gif"
-              alt
-            />
-          </a>
-        </figure>
+
+      <div class="row col-12 my-2">
+        <BannerAds :ad-obj="topBannerAd" />
       </div>
+
       <div class="row">
         <div class="col-md-8">
           <div class="newscontainer">
@@ -36,7 +19,7 @@
             <div class="editor-container">
               <div class="editor-left">
                 <img
-                  src="https://www.panchasilmedia.com/_nuxt/img/logoo.becd54a.png"
+                  src="https://user-images.githubusercontent.com/17085948/94036836-72e1e880-fde4-11ea-9d75-f5a2ea6e01f6.jpg"
                   alt
                 />
                 <h5>
@@ -48,7 +31,7 @@
               <div class="share-container"></div>
             </div>
 
-            <article>
+            <article class="">
               <div class="thumbnail-post">
                 <img :src="news.image" alt />
               </div>
@@ -56,16 +39,10 @@
                 <p v-html="news.description"></p>
               </div>
             </article>
-            <!-- <div class="tags-container pull-right">
-                        <a href="" class="uk-badge">#अपराध</a>
-                        <a href="" class="uk-badge">#अपराध</a>
-                        <a href="" class="uk-badge">#अपराध</a>
-                    </div>
-            <div class="clearfix"></div>-->
 
             <!-- <h3 class="youropinion"> प्रतिक्रिया</h3> -->
 
-            <div class="module2">
+            <!-- <div class="module2">
               <div class="module2-widget box-shadow">
                 <div class="module2-widget-wrapper">
                   <h2 class="module__title">
@@ -101,14 +78,14 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="col-md-4">
           <div class="rightsection">
-            <!-- <NewsMiniCard /> -->
+            <NewsMiniCard />
             <hr />
-            <!-- <SideAds /> -->
+            <SideAds />
           </div>
         </div>
       </div>
@@ -123,6 +100,14 @@ export default {
   data() {
     return {
       news: {},
+      topBannerAd: {
+        id: 0,
+        link: "#",
+        width: "1536",
+        height: "213",
+        imgSrc:
+          "https://via.placeholder.com/1536X213.png?text=Your Ads here -- in home page",
+      },
     };
   },
 
@@ -157,7 +142,7 @@ export default {
     border-bottom: 1px solid #3333;
     margin-bottom: 10px;
     .editor-left {
-      font-family: "Noto Sans", sans-serif;
+      font-family: "Roboto";
       display: flex;
       align-items: center;
       margin: 10px 0;
@@ -201,6 +186,7 @@ export default {
     .thumbnail-post {
     }
     .content-entry {
+      font-family: roboto;
       margin-top: 1rem;
       p {
         font-size: 1.1rem;
@@ -283,7 +269,6 @@ export default {
     &:before {
       content: "";
       position: absolute;
-      // background: url(../quotepng.png) no-repeat scroll 0 0;
       top: 0;
       left: 0;
       width: 32px;
@@ -370,3 +355,4 @@ export default {
   }
 }
 </style>
+

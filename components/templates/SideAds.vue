@@ -1,5 +1,5 @@
 <template>
-  <div class="cat-side-ads">
+  <div class="cat-side-ads" style="display: none">
     <div v-for="item in items" :key="item.id" class="advertisement my-2">
       <figure>
         <a :href="item.lnk" :title="item.title" target="_blank">
