@@ -59,7 +59,8 @@ export default {
       latest_news: [],
       bottomCategories: [],
 
-      topBannerAd: {
+      topBannerAd: { 
+        
         id: 0,
         link: "#",
         width: "1536",

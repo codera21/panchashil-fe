@@ -51,11 +51,7 @@
             <div class="left-title footer-title">Who are we?</div>
             <p>
               Panchasilmedia.com is a Nepali language news portal operated by
-              Panchasil Media Pvt Ltd Since 2020AD. This portal focus on
-              national political, social and economic issues, posts breaking
-              news, investigative reports as well as content related to
-              education, science and technology, cultural activities, lifestyle,
-              health, sports, entertainment international news and literature.
+              Panchasil Media Pvt Ltd Since 2020AD.
             </p>
           </div>
 
