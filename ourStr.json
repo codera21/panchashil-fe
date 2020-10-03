@@ -1,0 +1,65 @@
+{
+  "data": {
+    "okay": {
+      "Is Okay informal?": {
+        "Is Okay polite?": [
+          "Is okay a formal word?",
+          "Is saying OK rude?",
+          "Is Alright polite?",
+          "What should I reply instead of okay?"
+        ],
+        "Is it OK formal or informal?": [],
+        "Is saying okay rude?": [
+          "Is OK a rude reply?",
+          "What should I reply instead of okay?",
+          "Is it rude not to respond to a text?"
+        ],
+        "What are other ways to say OK?": []
+      },
+      "Is okay an abbreviation?": {
+        "Is OK or okay proper?": [
+          "Is OK an abbreviation for Okay?",
+          "When should you use OK or okay?",
+          "Is okay a formal word?",
+          "Is OK supposed to be capitalized?"
+        ],
+        "What does O and K stand for in OK?": [
+          "What does OK really stand for?",
+          "What is OK short for?",
+          "What's the real origin of OK?",
+          "Does OK means zero killed?"
+        ],
+        "What is OK in full?": [
+          "What is the full form of OK?",
+          "What is OK short for?",
+          "What does the O and K stand for in OK?"
+        ],
+        "What is OK short for?": [
+          "What does OK really stand for?",
+          "What does O and K stand for in OK?",
+          "What does OK stand for in states?",
+          "When did OK start being used?"
+        ]
+      },
+      "What is OK full form?": {},
+      "What is correct OK or okay?": {
+        "How do you use OK in a sentence?": [],
+        "How do you write okay?": [
+          "What is OK short for?",
+          "How do you say it's OK in different ways?",
+          "How do you use okay?"
+        ],
+        "Is OK an abbreviation for Okay?": [
+          "Is OK short for Okay?",
+          "What is OK an abbreviation for?",
+          "Is okay a real word?",
+          "What can I say instead of okay?"
+        ]
+      }
+    }
+  },
+  "message": "complete",
+  "question": "okay",
+  "questions_count": 44,
+  "status": true
+}
