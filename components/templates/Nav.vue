@@ -57,10 +57,39 @@
       <div class="container position-relative">
         <nav class="desktop-nav greedy d-none d-lg-block">
           <ul class="liststyle--none links">
-            <li v-for="(link, index) in navLinks" :key="`apple${index}`">
-              <nuxt-link :to="`/categories/${link.id}`">{{
-                link.name
+            <!-- <li v-for="(link, index) in navLinks" :key="`apple${index}`">
+              <nuxt-link :to="`/categories/${link.category_id}`">{{
+                link.category_name
               }}</nuxt-link>
+            </li> -->
+            <li
+              class="nav-item dropdown"
+              v-for="(link, index) in navLinks"
+              :key="`apple${index}`"
+            >
+              <!-- 
+                :to="`/categories/${link.category_id}`"
+
+             -->
+              <a
+                href="#"
+                class="nav-link dropdown-toggle py-0"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >{{ link.category_name }}</a
+              >
+              <!-- {{ link }} -->
+              <div class="dropdown-menu py-0" aria-labelledby="navbarDropdown">
+                <nuxt-link
+                  class="dropdown-item py-0"
+                  :to="`/categories/${link.category_id}/${category.id}`"
+                  v-for="category in link.sub_cat"
+                  :key="category.id"
+                  >{{ category.name }}</nuxt-link
+                >
+              </div>
             </li>
           </ul>
         </nav>
@@ -84,7 +113,7 @@
           :key="index"
           class="nav-flyout__menu-item"
         >
-          <a href class="nav-flyout__section-title">{{ link.name }}</a>
+          <a href class="nav-flyout__section-title">{{ link.category_name }}</a>
         </div>
         <!-- <div class="nav-flyout__menu-item">
           <a href class="nav-flyout__section-title">समाचार</a>
@@ -120,7 +149,7 @@
             class="main-list-item"
           >
             <nuxt-link to="/category-page">
-              <span>{{ link.name }}</span>
+              <span>{{ link.category_name }}</span>
             </nuxt-link>
           </li>
         </ul>
@@ -140,9 +169,9 @@ export default {
 
   created() {
     this.$axios
-      .get("https://api.panchasilmedia.com/api/admin/news-category?limit=12")
+      .get("https://admin.panchasilmedia.com/api/news/getcategory")
       .then(({ data }) => {
-        this.navLinks = data.data.slice(0, 12);
+        this.navLinks = data.slice(0, 12);
       });
   },
 
@@ -154,4 +183,19 @@ export default {
 };
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.dropdown-menu {
+  top: 40px;
+  &:hover {
+    display: block;
+  }
+}
+
+.dropdown-toggle:hover + .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu:hover ~ .dropdown-toggle {
+  background-color: red !important;
+}
+</style>

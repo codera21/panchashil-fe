@@ -5,16 +5,19 @@
     </div>
     <!-- main section -->
     <section class="breakingNews-section">
-      <div class="breakingNews-wrap" v-for="n in breaking_news" :key="n.id">
+      <div
+        class="breakingNews-wrap"
+        v-for="n in breaking_news"
+        :key="n.news_id"
+      >
         <h1 class="text-center">
-          <nuxt-link :to="`/news/${n.id}`">{{ n.title }}</nuxt-link>
+          <nuxt-link :to="`/news/${n.news_id}`">{{ n.title }}</nuxt-link>
         </h1>
-
-        <nuxt-link :to="`/news/${n.id}`">
-          <img :src="n.image" :alt="n.headline" class="img-fluid" />
+        <nuxt-link :to="`/news/${n.news_id}`">
+          <img :src="n.image" :alt="n.title" class="img-fluid" />
         </nuxt-link>
-        <nuxt-link :to="`/news/${n.id}`">
-          <p v-html="n.description"></p>
+        <nuxt-link :to="`/news/${n.news_id}`">
+          <p v-html="n.news"></p>
         </nuxt-link>
       </div>
     </section>
@@ -59,8 +62,7 @@ export default {
       latest_news: [],
       bottomCategories: [],
 
-      topBannerAd: { 
-        
+      topBannerAd: {
         id: 0,
         link: "#",
         width: "1536",
@@ -90,25 +92,19 @@ export default {
   created() {
     this.fetch();
     this.$axios
-      .get(
-        "https://api.panchasilmedia.com/api/admin/news/breaking_news/type/all/category"
-      )
+      .get("https://admin.panchasilmedia.com/api/news/getBreakingNews")
       .then(({ data }) => {
         this.breaking_news = data.slice(Math.max(data.length - 4, 0));
       });
 
     this.$axios
-      .get(
-        "https://api.panchasilmedia.com/api/admin/news/default/type/all/category"
-      )
+      .get("https://admin.panchasilmedia.com/api/news/getBreakingNews")
       .then(({ data }) => {
         this.latest_news = data.slice(Math.max(data.length - 4, 0));
       });
 
     this.$axios
-      .get(
-        "https://api.panchasilmedia.com/api/admin/news/related/type/all/category"
-      )
+      .get("https://admin.panchasilmedia.com/api/news/getBreakingNews")
       .then(({ data }) => {
         this.related_news = data.slice(Math.max(data.length - 3, 0));
       });

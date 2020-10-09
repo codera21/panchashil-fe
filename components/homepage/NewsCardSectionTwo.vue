@@ -6,9 +6,9 @@
       </div>
 
       <div class="row">
-        <div v-for="item in news" :key="item.id" class="col-md-3 mb-3">
+        <div v-for="item in news" :key="item.news_id" class="col-md-3 mb-3">
           <div class="fourGrid-section-card box-shadow h-100">
-            <nuxt-link :to="`/news/${item.id}`">
+            <nuxt-link :to="`/news/${item.news_id}`">
               <!-- <img :src="item.image" :alt="item.title" class="img-fluid" /> -->
               <div
                 class="img"
@@ -16,7 +16,7 @@
                 :style="`background-image: url(${item.image})`"
               />
             </nuxt-link>
-            <nuxt-link :to="`/news/${item.id}`">
+            <nuxt-link :to="`/news/${item.news_id}`">
               <span class="card-title">{{
                 item.title.length > 40
                   ? item.title.substr(0, 40) + "..."

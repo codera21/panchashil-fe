@@ -12,6 +12,7 @@
       <div class="row">
         <div class="col-md-8">
           <div class="newscontainer">
+            <!-- {{ news }} -->
             <header>
               <h2 v-html="news.title"></h2>
             </header>
@@ -118,10 +119,10 @@ export default {
   created() {
     this.$axios
       .get(
-        `https://api.panchasilmedia.com/api/admin/news/${this.$route.params.id}`
+        `https://admin.panchasilmedia.com/api/news/newsbyid/${this.$route.params.id}`
       )
       .then(({ data }) => {
-        this.news = data;
+        this.news = data.pop();
       });
   },
 };
@@ -355,4 +356,3 @@ export default {
   }
 }
 </style>
-
