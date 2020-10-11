@@ -14,7 +14,7 @@
           <nuxt-link :to="`/news/${n.news_id}`">{{ n.title }}</nuxt-link>
         </h1>
         <nuxt-link :to="`/news/${n.news_id}`">
-          <img :src="n.image" :alt="n.title" class="img-fluid" />
+          <img :src="`https://admin.panchasilmedia.com/uploads/${n.image}`" :alt="n.title" class="img-fluid" />
         </nuxt-link>
         <nuxt-link :to="`/news/${n.news_id}`">
           <p v-html="n.news"></p>

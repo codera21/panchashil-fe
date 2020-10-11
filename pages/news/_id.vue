@@ -34,7 +34,7 @@
 
             <article class="">
               <div class="thumbnail-post">
-                <img :src="news.image" alt />
+                <img :src="`https://admin.panchasilmedia.com/uploads/${news.image}`" alt />
               </div>
               <div class="content-entry">
                 <p v-html="news.description"></p>

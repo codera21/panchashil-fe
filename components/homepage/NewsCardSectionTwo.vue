@@ -13,7 +13,7 @@
               <div
                 class="img"
                 :alt="item.title"
-                :style="`background-image: url(${item.image})`"
+                :style="`background-image: url(https://admin.panchasilmedia.com/uploads/${item.image})`"
               />
             </nuxt-link>
             <nuxt-link :to="`/news/${item.news_id}`">

@@ -4,7 +4,7 @@
       <div v-for="item in news" :key="item.news_id" class="col-md-4 mb-3">
         <div class="fourGrid-section-card box-shadow h-100">
           <nuxt-link :to="`/news/${item.news_id}`">
-            <img :src="item.image" alt class="img-fluid" />
+						<img :src="`https://admin.panchasilmedia.com/uploads/${item.image}`" alt class="img-fluid" />
           </nuxt-link>
           <nuxt-link :to="`/news/${item.news_id}`">
             <span class="card-title">{{

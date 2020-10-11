@@ -86,8 +86,7 @@
     </div>
     <div class="bottom-footer">
       <span>
-        Copyright © 2018 All Rights Reserved. Developed by
-        <a href>Info</a>
+        Copyright © 2020 All Rights Reserved. 
       </span>
     </div>
   </footer>
